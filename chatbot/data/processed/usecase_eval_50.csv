@@ -1,0 +1,744 @@
+﻿id,category,question,answer,citations,distances,kw_hits,type_hit,noise,score_0_5,grade,auto_notes,top_types,top_titles,seconds,llm_used
+1,spec,MG400 คืออะไร?,"MG400 คืออะไร?
+
+MG400 เป็นเครื่องมืออัตโนมัติสำหรับพกพาขนาดเล็กที่ใช้ในการจัดการวัสดุและเพิ่มประสิทธิภาพในโรงงาน
+
+สิ่งที่ต้องทราบ:
+
+* MG400 มี 4 จุดยึด (4-AXIS) และสามารถทำงานได้ในพื้นที่จำกัด
+* เครื่องมือนี้สามารถใช้ในการจัดการวัสดุ, พาเลทไทซ์, การจับวัตถุแบบพลังงาน, และการควบคุมเส้นทาง
+
+หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการใช้งาน MG400 ควรอ่าน User Guide หรือ Training System Installation Guide ที่มีรายละเอียดเกี่ยวกับการตั้งค่าและใช้งานเครื่องมือนี้อย่างเหมาะสม
+
+Sources:
+- Dobot MG400 User Guide V1.7 | p.8 | page_8
+- MG400 Training System Installation Guide | p.4 | page_4",MG400 Demo: Standard Conveyor Guide | p.5 | page_5 | MG400 Training System Installation Guide | p.8 | page_8 | MG400 Training System Installation Guide | p.13 | page_13 | Dobot MG400 User Guide V1.7 | p.14 | page_14 | MG400 FAQ: Ip Rating,0.307 | 0.310 | 0.316 | 0.323 | 0.337,4|desktop|mg400|robot|compact,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,demo_guide|demo_guide|demo_guide|manual|faq,MG400 Demo: Standard Conveyor Guide || MG400 Training System Installation Guide || MG400 Training System Installation Guide || Dobot MG400 User Guide V1.7 || MG400 FAQ: Ip Rating,1.58,True
+2,spec,MG400 payload หรือน้ำหนักบรรทุกสูงสุดเท่าไร?,"MG400 payload หรือน้ำหนักบรรทุกสูงสุดเท่าไร?
+
+* น้ำหนักบรรทุกสูงสุด (payload) คือ 500g
+* สิ่งสำคัญ: หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับข้อจำกัดของน้ำหนักบรรทุก ให้ตรวจสอบ ""Load curve"" ใน Appendix A Technical Specifications ของ User Guide
+
+Sources:
+- Dobot MG400 User Guide V1.7 | p.22 | page_22
+- Dobot MG400 User Guide V1.7 | Appendix A Technical Specifications",MG400 FAQ: Control Box | MG400 FAQ: What Is Mg400 | Dobot MG400 User Guide V1.7 | p.42 | page_42 | Dobot MG400 User Guide V1.7 | p.22 | page_22 | MG400 FAQ: Ip Rating,0.409 | 0.448 | 0.449 | 0.464 | 0.478,500|g|payload|load,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,faq|faq|manual|manual|faq,MG400 FAQ: Control Box || MG400 FAQ: What Is Mg400 || Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7 || MG400 FAQ: Ip Rating,1.09,True
+3,spec,working radius หรือระยะเอื้อมของ MG400 เท่าไร?,"ระยะเอื้อม (working radius) ของ MG400 คือ 440mm 
+
+* ตรวจสอบข้อมูลจากเอกสารที่ดึงมา:
+	+ ดอทบอท มก 400 FAQ: IP Rating
+	+ ดอทบอท มก 400 User Guide V1.7 | p.42 | page_42
+* ไม่มีข้อมูลเพิ่มเติมเกี่ยวกับระยะเอื้อมในเอกสารที่ดึงมา",MG400 FAQ: Control Box | MG400 FAQ: What Is Mg400 | MG400 FAQ: Ip Rating | Dobot MG400 User Guide V1.7 | p.42 | page_42 | Dobot MG400 User Guide V1.7 | p.19 | page_19,0.352 | 0.373 | 0.401 | 0.426 | 0.480,440|mm|reach|radius,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,faq|faq|faq|manual|manual,MG400 FAQ: Control Box || MG400 FAQ: What Is Mg400 || MG400 FAQ: Ip Rating || Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7,0.96,True
+4,spec,repeatability ของ MG400 เท่าไร?,"เรื่อง: ความแม่นยำของ MG400 (Repeatability of MG400)
+
+คำตอบ:
+ความแม่นยำของ MG400 คือ ±0.05mm
+
+ขั้นตอนเพิ่มเติม:
+1. ความแม่นยำเป็นคุณสมบัติที่สำคัญในการควบคุมอุปกรณ์เครื่องจักร
+2. ควรตรวจสอบความแม่นยำก่อนใช้งานจริง
+
+แหล่งข้อมูล:
+- [Source 1] MG400 FAQ: Ip Rating (ไม่เกี่ยวข้องโดยตรง แต่เป็นข้อมูลทั่วไป)
+- [Source 2] Dobot MG400 User Guide V1.7 | p.42 | page_42
+- [Source 3] MG400 FAQ: What Is Mg400",MG400 FAQ: Ip Rating | Dobot MG400 User Guide V1.7 | p.42 | page_42 | MG400 FAQ: What Is Mg400 | MG400 FAQ: Control Box | MG400 Demo: Standard Conveyor Guide | p.5 | page_5,0.385 | 0.396 | 0.396 | 0.405 | 0.396,0.05|±|repeat,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,faq|manual|faq|faq|demo_guide,MG400 FAQ: Ip Rating || Dobot MG400 User Guide V1.7 || MG400 FAQ: What Is Mg400 || MG400 FAQ: Control Box || MG400 Demo: Standard Conveyor Guide,1.31,True
+5,spec,ขนาด base ของ MG400 กี่มิลลิเมตร?,"ขนาด base ของ MG400 คือ 190 มม. x 190 มม.
+
+* ตรวจสอบจากเอกสาร: [Source 3] Dobot MG400 User Guide V1.7 | p.42 | page_42
+* ตรวจสอบจากเอกสาร: [Source 4] Dobot MG400 User Guide V1.7 | p.19 | page_19
+
+Sources:
+- [Source 3] Dobot MG400 User Guide V1.7 | p.42 | page_42
+- [Source 4] Dobot MG400 User Guide V1.7 | p.19 | page_19",MG400 FAQ: Control Box | MG400 Training System Installation Guide | p.9 | page_9 | Dobot MG400 User Guide V1.7 | p.42 | page_42 | Dobot MG400 User Guide V1.7 | p.19 | page_19 | MG400 FAQ: Ip Rating,0.333 | 0.382 | 0.410 | 0.416 | 0.418,190|base,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,faq|demo_guide|manual|manual|faq,MG400 FAQ: Control Box || MG400 Training System Installation Guide || Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7 || MG400 FAQ: Ip Rating,1.16,True
+6,spec,MG400 ได้มาตรฐาน IP ระดับไหน?,"MG400 ได้มาตรฐาน IP ระดับ 20 (IP20)
+
+* สิ่งที่ context มีใกล้เคียง:
+	+ Port 502 ใช้สำหรับการใช้งาน Modbus โดยปกติแล้วไม่ควรใช้สำหรับอื่นๆ
+	+ Port 8172 ใช้สำหรับการใช้งาน Lua Debugger โดยปกติแล้วไม่ควรใช้สำหรับอื่นๆ
+
+**ข้อควรระวัง**
+
+* เมื่อใช้เครื่องจักรที่มีมาตรฐาน IP20 ควรปฏิบัติตามข้อกำหนดความปลอดภัยและความมั่นคงในการเชื่อมต่อ
+* ใช้เครื่องจักรในพื้นที่ที่มีการควบคุมการเข้าถึงและไม่มีสิ่งกีดขวาง
+
+**วิธีการเชื่อมต่อกับ MG400**
+
+1. ใช้ Port 29999 สำหรับการควบคุมเครื่องจักร
+2. ใช้ Port 30003 สำหรับการควบคุมการเคลื่อนที่ของเครื่องจักร
+3. ใช้ Port 30004 สำหรับการรับข้อมูลจากเครื่องจักร
+
+**แหล่งข้อมูล**
+
+* [MG400 FAQ: Ip Rating](#)
+* [TCP/IP Remote Control Interface Guide (4-axis)](#)
+* [TCP-IP-4Axis-Python README / `dobot_api.py` / `PythonExample.py`](#)
+* [MG400 User Guide safety sections](#)",MG400 FAQ: Ip Rating | MG400 TCP Ports and Connection Cheat-sheet | MG400 TCP Ports and Connection Cheat-sheet | MG400 Python TCP Skeleton (connection-first) | MG400 FAQ: Network Communication Ports,0.172 | 0.387 | 0.403 | 0.490 | 0.378,ip20|20,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,faq|cheat_sheet|cheat_sheet|cheat_sheet|faq,MG400 FAQ: Ip Rating || MG400 TCP Ports and Connection Cheat-sheet || MG400 TCP Ports and Connection Cheat-sheet || MG400 Python TCP Skeleton (connection-first) || MG400 FAQ: Network Communication Ports,1.99,True
+7,spec,MG400 ใช้มอเตอร์แบบ stepper หรือ servo?,"MG400 ใช้มอเตอร์แบบ servo ไม่
+
+* สิ่งที่ควรทำก่อนการเคลื่อนไหว (safety-before-motion checklist):
+  - ตรวจสอบระบบ E-stop
+  - ตรวจสอบสัญญาณมือชี้
+  - ตรวจสอบระบบควบคุมการเคลื่อนไหว
+  - ตรวจสอบระบบไฟฟ้าและอิเล็กทรอนิกส์
+* สิ่งที่ควรทำในระหว่างการเคลื่อนไหว:
+  - ใช้การเคลื่อนไหวแบบต่ำกว่าความเร็วปกติ
+  - ใช้การเคลื่อนไหวแบบ dry-run
+  - ใช้การควบคุมระบบโดยผู้ใช้
+* สิ่งที่ควรทำหลังการเคลื่อนไหว:
+  - ตรวจสอบว่าระบบได้รับการหยุดชะงักอย่างสมบูรณ์
+  - ตรวจสอบว่าระบบได้รับการตั้งค่าการทำงานอย่างถูกต้อง
+
+Sources:
+- [MG400 FAQ: Servo Motors](https://docs.dobot.com/en/faq/servo-motors)
+- [MG400 User Guide V1.7 | p.14 | page_14](https://docs.dobot.com/en/user-guide/v1.7/page-14)",MG400 FAQ: Servo Motors | MG400 FAQ: Control Box | MG400 Safety Checklist Before Motion | Dobot MG400 User Guide V1.7 | p.14 | page_14 | MG400 Demo: Standard Conveyor Guide | p.5 | page_5,0.144 | 0.310 | 0.455 | 0.341 | 0.382,servo,True,0,4,good,ผ่านเกณฑ์อัตโนมัติ,faq|faq|cheat_sheet|manual|demo_guide,MG400 FAQ: Servo Motors || MG400 FAQ: Control Box || MG400 Safety Checklist Before Motion || Dobot MG400 User Guide V1.7 || MG400 Demo: Standard Conveyor Guide,1.75,True
+8,spec,MG400 ต่างจาก Magician Pro อย่างไรคร่าวๆ?,"MG400 ต่างจาก Magician Pro อย่างไรคร่าวๆ?
+
+* มี ""MG400"" เป็นชื่อเดียวกัน แต่จะใช้ชื่อนี้ไปในอนาคตเพื่อให้เข้าใจง่ายกว่า
+* MG400 เป็นเวอร์ชันที่มีการออกแบบมาเพื่อใช้งานในอุตสาหกรรม
+* มีขนาดเล็กและพกพาได้ง่าย
+
+สิ่งที่ควรทราบ:
+- ต้องใช้การควบคุมแบบ ""all-in-one"" ซึ่งรวมตัวชิ้นกลางและข้อต่อเข้าด้วยกัน
+- มี 4 ข้อต่อที่สามารถเคลื่อนไหวได้ และมี 2 ข้อต่อเชื่อมต่อกับแขนและแขนล่าง
+
+Sources:
+- [Source 1] MG400 FAQ: Vs Magicianpro
+- [Source 3] Dobot MG400 User Guide V1.7 | p.14 | page_14",MG400 FAQ: Vs Magicianpro | MG400 FAQ: Control Box | Dobot MG400 User Guide V1.7 | p.14 | page_14 | MG400 Demo: Standard Conveyor Guide | p.5 | page_5 | MG400 Training System Installation Guide | p.8 | page_8,0.226 | 0.381 | 0.403 | 0.414 | 0.423,magician|mg400|desktop|industrial,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,faq|faq|manual|demo_guide|demo_guide,MG400 FAQ: Vs Magicianpro || MG400 FAQ: Control Box || Dobot MG400 User Guide V1.7 || MG400 Demo: Standard Conveyor Guide || MG400 Training System Installation Guide,1.51,True
+9,safety,ก่อนสั่ง MovJ ต้องตรวจ safety อะไรบ้าง?,"ก่อนสั่ง MovJ ต้องตรวจความปลอดภัยดังต่อไปนี้:
+
+* ระบุพื้นที่ที่คนไม่สามารถเข้าถึงได้ (guardrails / warning zone)
+* ตรวจสอบว่าผู้ปฏิบัติงานมีการฝึกอบรมและความรับผิดชอบที่เหมาะสม
+* ตรวจสอบว่าอี-สแตป (E-stop) สามารถเข้าถึงได้
+* ตรวจสอบพื้นที่ทำงานให้สะอาดและไม่มีอุปกรณ์หรือคابلอยู่ในเส้นทาง
+* ตรวจสอบว่าลोडและเครื่องมือที่ใช้อยู่ภายในขอบเขตที่กำหนด
+* ตรวจสอบสถานะของโรบอท (no active alarms; clear errors only after understanding the cause)
+* ตรวจสอบความเร็วในการเคลื่อนที่ (first runs at low speed / reduced velocity; dry-run or simulation when available)
+
+Sources:
+- [MG400 Safety Checklist Before Motion] (section: ก่อนสั่ง MovJ ต้องตรวจความปลอดภัย)
+- [Dobot MG400 User Guide V1.7 | p.10 | page_10](Section 4: การใช้งานที่เหมาะสมและความปลอดภัย)",MG400 Safety Checklist Before Motion | MG400 Safety Checklist Before Motion | Dobot MG400 User Guide V1.7 | p.10 | page_10 | Dobot MG400 User Guide V1.7 | p.9 | page_9 | Dobot MG400 User Guide V1.7 | p.3 | page_3,0.445 | 0.585 | 0.508 | 0.540 | 0.560,safety|workspace|e-stop|speed|checklist|ความเร็ว,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,cheat_sheet|cheat_sheet|manual|manual|manual,MG400 Safety Checklist Before Motion || MG400 Safety Checklist Before Motion || Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7,1.79,True
+10,safety,ทำไมไม่ควรให้คนเข้าใกล้หุ่นตอนกำลังทำงาน?,"ทำไมไม่ควรให้คนเข้าใกล้หุ่นตอนกำลังทำงาน?
+
+• หุ่นยนต์จะถือว่ากำลังเคลื่อนที่และไม่ปลอดภัยเมื่ออยู่ในสถานะ ""พร้อมที่จะเคลื่อนที่"" และไม่ควรเข้าใกล้
+• การเข้าใกล้หุ่นยนต์ที่กำลังทำงานอาจทำให้เกิดการบาดเจ็บต่อตนเองหรือหุ่นยนต์
+• ควรตั้งกำแพงป้องกันและกำหนดพื้นที่ความปลอดภัยรอบหุ่นยนต์เพื่อป้องกันผู้คนเข้าใกล้
+
+Sources:
+- Dobot MG400 User Guide V1.7 | p.11 | page_11
+- MG400 Safety Checklist Before Motion
+  • **People out of reach** — establish guardrails / warning zone; do not enter the robot safety range while powered or about to move.
+• Dobot MG400 User Guide V1.7 | p.9 | page_9",Dobot MG400 User Guide V1.7 | p.11 | page_11 | Dobot MG400 User Guide V1.7 | p.9 | page_9 | MG400 Safety Checklist Before Motion | Dobot MG400 User Guide V1.7 | p.9 | page_9 | Dobot MG400 User Guide V1.7 | p.9 | page_9,0.340 | 0.382 | 0.533 | 0.416 | 0.432,safety|range|guard|reach|personnel,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,manual|manual|cheat_sheet|manual|manual,Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7 || MG400 Safety Checklist Before Motion || Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7,1.56,True
+11,safety,ก่อน EnableRobot ควรเตรียมอะไร?,"ก่อน EnableRobot ควรเตรียมการดังต่อไปนี้:
+
+* ตรวจสอบว่าเครื่องมือและอุปกรณ์ที่ติดตั้งบนเครื่องบอทอยู่ในตำแหน่งที่เหมาะสมและปลอดภัย
+* ตรวจสอบว่าเครื่องบอตไม่ได้เคลื่อนที่หรือทำงานโดยไม่จำเป็น
+* ตรวจสอบว่าเครื่องบอตมีระบบความปลอดภัยทั้งหมดทำงานปกติ
+
+Sources:
+- [Source 1] MG400 Safety Checklist Before Motion (page 8)
+- [Source 4] Dobot MG400 User Guide V1.7 | p.9 | page_9",MG400 Safety Checklist Before Motion | Dobot MG400 User Guide V1.7 | p.10 | page_10 | Dobot MG400 User Guide V1.7 | p.11 | page_11 | Dobot MG400 User Guide V1.7 | p.9 | page_9 | Dobot MG400 User Guide V1.7 | p.10 | page_10,0.507 | 0.452 | 0.483 | 0.489 | 0.495,enable|safety,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,cheat_sheet|manual|manual|manual|manual,MG400 Safety Checklist Before Motion || Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7,1.3,True
+12,safety,ถ้าจะรันโปรแกรมครั้งแรก ควรตั้งความเร็วอย่างไร?,"**ความเร็วสำหรับโปรแกรมครั้งแรก**
+
+ควรตั้งความเร็ว **50** (หน่วย mm/s) สำหรับโปรแกรมครั้งแรก เพื่อให้แน่ใจว่าข้อมูลที่ได้รับจาก DobotStudio Pro เป็นไปตามข้อกำหนดของเครื่อง
+
+**ขั้นตอนเพิ่มเติม**
+
+1. ตรวจสอบ Advanced Settings ของ Aux Joint ใน DobotStudio Pro
+2. ตรวจสอบความเร็ว (Speed) และการกระตุ้น (Accel) ที่กำหนดไว้ในโปรแกรม
+3. หากต้องการใช้ความเร็วที่แตกต่าง ควรปรับเปลี่ยนค่าใน Advanced Settings ของ Aux Joint
+
+**แหล่งข้อมูล**
+
+*   [DobotStudio Pro User Guide V2.8.0](https://dobot.com/en/support/user-guide/dostudio-pro-user-guide-v28-0-mg400--m1-pro) | p. 163 | page_163
+*   [DobotStudio Pro User Guide V2.8.0](https://dobot.com/en/support/user-guide/dostudio-pro-user-guide-v28-0-mg400--m1-pro) | p. 125 | page_125",CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.154 | page_154 | CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.153 | page_153 | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.36 | page_36 | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.125 | page_125 | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.163 | page_163,0.391 | 0.397 | 0.410 | 0.421 | 0.426,low|speed,False,0,4,good,doc_type ไม่ตรงกลุ่มที่คาด,software_manual|software_manual|software_manual|software_manual|software_manual,CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) || CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro),1.75,True
+13,safety,payload เกินสเปกแล้วอันตรายอย่างไร / ควรทำอย่างไร?,"payload เกินสเปกแล้วอันตรายอย่างไร / ควรทำอย่างไร?
+
+• การใช้พาวเลดีกรีนเกินขีดจำกัดอาจทำให้เกิดการเสื่อมสภาพของระบบและอาจทำให้ระบบหยุดทำงานได้
+• การใช้พาวเลดีกรีนเกินขีดจำกัดอาจทำให้เกิดการเสื่อมสภาพของระบบและอาจทำให้ระบบหยุดทำงานได้
+
+**ขั้นตอนในการแก้ไข**
+
+1. ตรวจสอบว่าพาวเลดีกรีนอยู่ในขีดจำกัดหรือไม่
+2. หากเกินขีดจำกัด ให้ลดปริมาณพาวเลดีกรีนลงให้เหลือน้อยที่สุด
+3. ตรวจสอบและแก้ไขปัญหาใดๆ ที่อาจทำให้เกิดการเสื่อมสภาพของระบบ
+
+**แหล่งข้อมูล**
+
+- Dobot MG400 User Guide V1.7 | p.8 | page_8
+- Table 8.1 Check items (Cycle Maintenance)",Dobot MG400 User Guide V1.7 | p.7 | page_7 | Dobot MG400 User Guide V1.7 | p.9 | page_9 | Dobot MG400 User Guide V1.7 | p.9 | page_9 | Dobot MG400 User Guide V1.7 | p.8 | page_8 | Dobot MG400 User Guide V1.7 | p.31 | page_31,0.540 | 0.543 | 0.575 | 0.616 | 0.623,payload|load|limit|within,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,manual|manual|manual|manual|manual,Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7,1.67,True
+14,safety,checklist ความปลอดภัยสั้นๆ ก่อนแล็บ MG400,"ความปลอดภัยสั้นๆ ก่อนแล็บ MG400 (Before Starting Work on MG400)
+
+* ตรวจสอบว่าเครื่องมือใช้งานในพื้นที่ที่เหมาะสมตามมาตรฐานการออกแบบ
+* ตรวจสอบว่าไม่มีบริเวณรอบๆ เครื่องมือเป็นอันตราย
+* หลีกเลี่ยงการเริ่มและหยุดการใช้งานเครื่องมืออย่างต่อเนื่อง (ไม่เกินหนึ่งครั้งต่อนาที)
+* ตรวจสอบว่าผู้ใช้เครื่องมือได้รับการฝึกอบรมจาก Yuejiang Technology Co., Ltd. หรือสถาบันเทียบเท่า
+* ใช้เครื่องมือในความปลอดภัยและติดตามคำแนะนำของเอกสารการใช้งานอย่างเคร่งครัด
+
+Sources:
+- [MG400 Safety Checklist Before Motion] (section on safety precautions)
+- [MG400 Training System Installation Guide] (sections on safety precautions and usage guidelines)",MG400 Safety Checklist Before Motion | MG400 Demo: Standard Conveyor Guide | p.5 | page_5 | MG400 Training System Installation Guide | p.18 | page_18 | MG400 Training System Installation Guide | p.6 | page_6 | MG400 Training System Installation Guide | p.5 | page_5,0.285 | 0.339 | 0.357 | 0.387 | 0.415,safety|checklist,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,cheat_sheet|demo_guide|demo_guide|demo_guide|demo_guide,MG400 Safety Checklist Before Motion || MG400 Demo: Standard Conveyor Guide || MG400 Training System Installation Guide || MG400 Training System Installation Guide || MG400 Training System Installation Guide,1.57,True
+15,network,MG400 ใช้ TCP port อะไรสำหรับ dashboard motion และ feedback?,"MG400 ใช้ TCP port อะไรสำหรับ dashboard motion และ feedback?
+
+* Port 30003 สำหรับ motion (MovJ, MovL, Jump, Arc, relative moves, etc.)
+* Port 30004 สำหรับ feedback (High-frequency robot status / feedback stream)
+
+**ข้อควรระวัง**
+
+* ควรตรวจสอบต่อ TCP/IP Remote Control Interface Guide (4-axis) และ SDK ที่ใช้ หากมีการเปลี่ยนแปลงในเวอร์ชันที่แตกต่างกัน
+* ไม่ควรใช้ Port 502 สำหรับ dashboard motion และ feedback เนื่องจากเป็น Port Modbus โดยปกติ
+
+**ขั้นตอน**
+
+1. ตรวจสอบ IP/ports กับ robot และ official TCP/IP 4-axis guide
+2. ใช้ Port 30003 สำหรับ motion และ Port 30004 สำหรับ feedback
+3. ควรตรวจสอบต่อ MG400 FAQ: network communication ports เพื่อความปลอดภัย
+
+**แหล่งข้อมูล**
+
+* [Source 1] MG400 TCP Ports and Connection Cheat-sheet (TCP/IP ports and connection cheat-sheet)
+* [Source 2] MG400 Python TCP Skeleton (connection-first) (Python TCP skeleton)
+* [Source 3] MG400 TCP Ports and Connection Cheat-sheet (Other network ports)
+* [Source 4] MG400 Python TCP Skeleton (connection-first) (Related sources to cite)
+* [Source 5] MG400 FAQ: Network Communication Ports (MG400 FAQ: network communication ports)",MG400 TCP Ports and Connection Cheat-sheet | MG400 Python TCP Skeleton (connection-first) | MG400 TCP Ports and Connection Cheat-sheet | MG400 Python TCP Skeleton (connection-first) | MG400 FAQ: Network Communication Ports,0.287 | 0.386 | 0.410 | 0.429 | 0.332,29999|30003|30004,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,cheat_sheet|cheat_sheet|cheat_sheet|cheat_sheet|faq,MG400 TCP Ports and Connection Cheat-sheet || MG400 Python TCP Skeleton (connection-first) || MG400 TCP Ports and Connection Cheat-sheet || MG400 Python TCP Skeleton (connection-first) || MG400 FAQ: Network Communication Ports,1.96,True
+16,network,port 29999 ใช้ทำอะไร?,"port 29999 ใช้ทำอะไร?
+
+* เป็นหน้าจอ (Dashboard) และใช้สำหรับ:
+	+ Enable/disable
+	+ Clear error
+	+ Script
+	+ I/O
+	+ Mode
+
+Sources:
+- [Source 1] MG400 TCP Ports and Connection Cheat-sheet
+- [Source 4] TCP/IP Remote Control Interface Guide (4-axis) | p.7",MG400 TCP Ports and Connection Cheat-sheet | MG400 TCP Ports and Connection Cheat-sheet | MG400 FAQ: Network Communication Ports | TCP/IP Remote Control Interface Guide (4-axis) | p.7 | page_7 | MG400 Python TCP Skeleton (connection-first),0.430 | 0.424 | 0.382 | 0.499 | 0.570,29999|dashboard,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,cheat_sheet|cheat_sheet|faq|api_reference|cheat_sheet,MG400 TCP Ports and Connection Cheat-sheet || MG400 TCP Ports and Connection Cheat-sheet || MG400 FAQ: Network Communication Ports || TCP/IP Remote Control Interface Guide (4-axis) || MG400 Python TCP Skeleton (connection-first),0.93,True
+17,network,port 30003 ใช้ทำอะไร?,"**What does port 30003 use for?**
+
+* Port 30003 ใช้ทำอะไร?: Motion
+	+ Motion commands need to be delivered through port 30003 (Source: TCP/IP Remote Control Interface Guide (4-axis) | p.7 | page_7)
+* Motion Command (Source: TCP/IP Remote Control Interface Guide (4-axis) | p.48 | page_48)
+
+**Sources:**
+- TCP/IP Remote Control Interface Guide (4-axis) | p.7 | page_7
+- TCP/IP Remote Control Interface Guide (4-axis) | p.48 | page_48",MG400 TCP Ports and Connection Cheat-sheet | MG400 TCP Ports and Connection Cheat-sheet | TCP/IP Remote Control Interface Guide (4-axis) | p.48 | page_48 | MG400 FAQ: Network Communication Ports | TCP/IP Remote Control Interface Guide (4-axis) | p.7 | page_7,0.452 | 0.486 | 0.474 | 0.397 | 0.544,30003|motion|move|mov,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,cheat_sheet|cheat_sheet|api_reference|faq|api_reference,MG400 TCP Ports and Connection Cheat-sheet || MG400 TCP Ports and Connection Cheat-sheet || TCP/IP Remote Control Interface Guide (4-axis) || MG400 FAQ: Network Communication Ports || TCP/IP Remote Control Interface Guide (4-axis),1.01,True
+18,network,LAN1 และ LAN2 ของ MG400 IP default คืออะไร?,"จากเอกสารที่ดึงมา ไม่มีรายละเอียดตรงหัวข้อนี้เพียงพอ
+แนะนำให้เปิด: [MG400 TCP Ports and Connection Cheat-sheet] (section on LAN ports)
+สิ่งที่ context มีใกล้เคียง: Port 502, LAN1, LAN2
+
+คำตอบ:
+- LAN1 และ LAN2 ของ MG400 IP default คือ `192.168.1.6` และ `192.168.2.6`
+- ควรหลีกเลี่ยงการเปลี่ยนแปลงทั้งสองให้เหมือนกันเพื่อหลีกเลี่ยงความขัดแย้งกับ LAN1
+- ควรตรวจสอบ TCP/IP Remote Control Interface Guide (4-axis) และ SDK ที่ใช้หากมีการเปลี่ยนแปลงหรือปรับปรุง
+
+Sources:
+- [MG400 TCP Ports and Connection Cheat-sheet] (section on LAN ports)
+- [TCP/IP Remote Control Interface Guide (4-axis)]
+- [TCP-IP-4Axis-Python README / `dobot_api.py` / `PythonExample.py`]",MG400 TCP Ports and Connection Cheat-sheet | MG400 TCP Ports and Connection Cheat-sheet | MG400 FAQ: Network Communication Ports | MG400 Python TCP Skeleton (connection-first) | MG400 FAQ: Ip Rating,0.329 | 0.280 | 0.224 | 0.466 | 0.347,192.168.1.6|192.168.2.6|lan1|lan2,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,cheat_sheet|cheat_sheet|faq|cheat_sheet|faq,MG400 TCP Ports and Connection Cheat-sheet || MG400 TCP Ports and Connection Cheat-sheet || MG400 FAQ: Network Communication Ports || MG400 Python TCP Skeleton (connection-first) || MG400 FAQ: Ip Rating,1.48,True
+19,network,port 502 บน MG400 ใช้ทำอะไร ห้ามทำอะไร?,"port 502 บน MG400 ใช้ทำอะไร ห้ามทำอะไร?
+
+* ใช้สำหรับ Modbus (default) และไม่ควรใช้สำหรับการใช้งานอื่นๆ
+* ไม่ควรใช้ port 502 สำหรับการใช้งานอื่นๆ เพื่อป้องกันความผิดปกติและข้อผิดพลาด
+
+Sources:
+- [MG400 TCP Ports and Connection Cheat-sheet](#MG400-TCP-Ports-and-Connection-Cheat-sheet)
+- [MG400 FAQ: network communication ports](#MG400-FAQ--network-communication-ports)",MG400 TCP Ports and Connection Cheat-sheet | MG400 FAQ: Network Communication Ports | MG400 TCP Ports and Connection Cheat-sheet | MG400 FAQ: Ip Rating | MG400 Python TCP Skeleton (connection-first),0.325 | 0.191 | 0.334 | 0.367 | 0.500,502|modbus,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,cheat_sheet|faq|cheat_sheet|faq|cheat_sheet,MG400 TCP Ports and Connection Cheat-sheet || MG400 FAQ: Network Communication Ports || MG400 TCP Ports and Connection Cheat-sheet || MG400 FAQ: Ip Rating || MG400 Python TCP Skeleton (connection-first),1.05,True
+20,network,ถ้าเชื่อม TCP/IP ไม่ได้ ควรตรวจอะไรบ้าง?,"ถ้าเชื่อม TCP/IP ไม่ได้ ควรตรวจอะไรบ้าง?
+
+* ตรวจว่า E-stop ถูกปลดออกและพื้นที่ทำงานเป็นระเบียบ
+* ตรวจว่า PC และร็อบอทอยู่ในเครือข่ายเดียวกัน (ปกติจะใช้ LAN2 สำหรับ TCP)
+* ตรวจว่า Enable TCP/IP remote mode ในซอฟต์แวร์ถูกเปิดใช้งานตามที่คู่มือแนะนำ
+* ตรวจว่า Dashboard (29999) ถูกเปิดใช้งานก่อน และตรวจสอบโหมดทำงาน / ข้อผิดพลาด
+* ตรวจสอบว่าคุณปฏิบัติตามคำสั่งการเริ่มต้นของคู่มืออย่างถูกต้อง
+
+Sources:
+- TCP/IP Remote Control Interface Guide (4-axis) | p.4 | page_4
+- MG400 TCP Ports and Connection Cheat-sheet",TCP/IP Remote Control Interface Guide (4-axis) | p.4 | page_4 | MG400 TCP Ports and Connection Cheat-sheet | MG400 TCP Ports and Connection Cheat-sheet | MG400 Python TCP Skeleton (connection-first) | MG400 TCP Ports and Connection Cheat-sheet,0.444 | 0.423 | 0.477 | 0.436 | 0.474,ip|lan|tcp|mode|network|port,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,api_reference|cheat_sheet|cheat_sheet|cheat_sheet|cheat_sheet,TCP/IP Remote Control Interface Guide (4-axis) || MG400 TCP Ports and Connection Cheat-sheet || MG400 TCP Ports and Connection Cheat-sheet || MG400 Python TCP Skeleton (connection-first) || MG400 TCP Ports and Connection Cheat-sheet,1.49,True
+21,python_api,ช่วยเขียน Python skeleton เชื่อม MG400 แบบยังไม่สั่ง motion,"ช่วยเขียน Python skeleton เชื่อม MG400 แบบยังไม่สั่ง motion
+
+*   ใช้ ports จาก 4-axis remote-control stack: Dashboard (29999), Motion (30003), Feedback (30004)
+*   ใช้ DobotApiDashboard และ DobotApiMove จาก dobot_api เพื่อเชื่อมต่อ
+*   ตั้งค่า IP/ports ให้ตรงกับ robot ของคุณและ official TCP/IP 4-axis guide
+
+```python
+from dobot_api import DobotApiDashboard, DobotApiMove # names may match your SDK copy
+
+# ตั้งค่า IP/ports
+ROBOT_IP = ""192.168.2.6"" # ตัวอย่าง LAN2 default; ปรับตาม robot ของคุณ
+PORT_DASHBOARD = 29999
+PORT_MOVE = 30003
+
+---
+
+[Source 1] MG400 Python TCP Skeleton (connection-first)
+# MG400 Python TCP skeleton (connection-first, no motion)
+
+[Source 2] Dobot MG400 User Guide V1.7 | p.14 | page_14
+Dobot MG400 User Guide 
+Issue V1.7 (2023-11-16) User Guide Copyright ¥ uejiang Technology Co., Ltd 
+ 8 
+ Product Introduction 
+ Overview 
+MG400 is an ultra-compact desktop robot arm. It is designed integrating the controller and the 
+robot arm body. The controller is installed in the base. MG400 robot arm includes 4 rotating joints, 
+and two connecting rods (upper arm and forearm), as shown in Figure 3.1. 
+ 
+Figure 3.1 MG400 
+ 
+ Robot base 
+The base is equipped with core computing and electrical components of MG400. The electrical 
+interface board is on the back of the base, and a circular indicator light button is on the base, as 
+described below. 
+Table 3.1 Indicator light 
+Color Status Definition 
+White light Flash System is starting 
+Blue light Steady on The robot arm has been started but not enabled 
+Flash Hand-guiding status
+
+---
+
+[Source 3] MG400 FAQ: Control Box
+Q: Does the MG400 have a control box?
+Yes. The MG400 has an all-in-one design. The controller and servo drive are located at the base of the robot. The base dimension is 190 mm x 190 mm, less than the size of an A4 paper. The MG400 is highly portable and is ideal for flexible production.
+
+---
+
+[Source 4] MG400 Product Spec Snapshot (curated from official product page)
+# Dobot MG400 — Official Product Spec Snapshot
+
+Primary source URL: https://www.dobot-robots.com/products/desktop-four-axis/mg400.html
+
+## Overview
+
+- Product: Dobot MG400
+- Type: Desktop-grade industrial collaborative robot
+- Axes: 4-axis
+- Programming: drag-to-teach, graphical programming, Lua
+- Safety features commonly listed: collision detection, drag-to-teach
+
+## Key specifications (official product page)
+
+- Payload: 500 g
+- Maximum payload: 750 g
+- Working radius: 440 mm
+- Repeatability: ±0.05 mm
+- Communication interfaces: TCP/IP, Modbus TCP
+
+## Learning / project notes
+
+- Suitable for education and light desktop automation (pick-and-place, palletizing demos, conveyor demos with sensors)
+
+---
+
+[Source 5] Dobot MG400 User Guide V1.7 | p.21 | page_21
+Dobot MG400 User Guide 
+Issue V1.7 (2023-11-16) User Guide Copyright ¥ uejiang Technology Co., Ltd 
+ 15 
+ Workspace 
+Figure 5.5 shows the workspace of MG400 robot. 
+ 
+ 
+Figure 5.5 Workspace 
+NOTICE
+When operating the robot, be sure to operate within the workspace and minimize 
+proximity to the working range boundary.
+
+User question:
+ช่วยเขียน Python skeleton เชื่อม MG400 แบบยังไม่สั่ง motion
+
+Sources:
+- [Source 1] MG400 Python TCP Skeleton (connection-first)
+- [Source 2] Dobot MG400 User Guide V1.7 | p.14 | page_14
+- [Source 3] MG400 FAQ: Control Box
+- [Source 4] MG400 Product Spec Snapshot (curated from official product page)
+- [Source 5] Dobot MG400 User Guide V1.7 | p.21 | page_21",MG400 Python TCP Skeleton (connection-first) | Dobot MG400 User Guide V1.7 | p.14 | page_14 | MG400 FAQ: Control Box | MG400 Product Spec Snapshot (curated from official product page) | Dobot MG400 User Guide V1.7 | p.21 | page_21,0.322 | 0.351 | 0.414 | 0.429 | 0.441,29999|python|dashboard|connect|dobot|ip,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,cheat_sheet|manual|faq|datasheet|manual,MG400 Python TCP Skeleton (connection-first) || Dobot MG400 User Guide V1.7 || MG400 FAQ: Control Box || MG400 Product Spec Snapshot (curated from official product page) || Dobot MG400 User Guide V1.7,4.64,True
+22,python_api,EnableRobot command ทำอะไร?,"EnableRobot command ทำอะไร?
+
+* คำตอบ: 使能机器人 (Enable the robot)
+* ขั้นตอน:
+	+ ถ้าไม่มีข้อมูลเพิ่มเติม ให้ใช้คำสั่ง EnableRobot() โดยไม่ต้องใส่ข้อมูลใดๆ
+	+ หากต้องการใส่ข้อมูล สามารถใช้คำสั่ง EnableRobot(load, centerX, centerY, centerZ) โดยใส่ค่าของ load, centerX, centerY และ centerZ
+* หมายเหตุ: ควรตรวจสอบว่าข้อมูลที่ใส่ถูกต้องและไม่เกินขีดจำกัดของการทำงาน
+
+Sources:
+- Dobot MG400 User Guide V1.7 | p.30 | page_30 (Safety Instructions)
+- PythonExample.py (EnableRobot command)",Dobot MG400 User Guide V1.7 | p.27 | page_27 | Dobot MG400 User Guide V1.7 | p.30 | page_30 | Dobot MG400 User Guide V1.7 | p.7 | page_7 | TCP/IP Remote Control Interface Guide (4-axis) | p.5 | page_5 | PythonExample.py,0.530 | 0.539 | 0.542 | 0.435 | 0.460,enable|robot|dashboard,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,manual|manual|manual|api_reference|sdk_code,Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7 || TCP/IP Remote Control Interface Guide (4-axis) || PythonExample.py,1.39,True
+23,python_api,MovJ กับ MovL ต่างกันอย่างไรคร่าวๆ?,"MovJ กับ MovL ต่างกันอย่างไรคร่าวๆ?
+
+* มีความแตกต่างกันในพารามิเตอร์เดียวคือ ""CoordType"" ใน MovJ
+* ใน MovJ ค่า default ของ CoordType คือ 0 (ไม่มีการกำหนดพิกัด)
+* ใน MovL ค่า default ของ CoordType คือ 1 (มีการกำหนดพิกัด)
+
+สิ่งสำคัญที่ควรทราบคือ:
+- การใช้ MovJ และ MovL ต้องทำอย่างระมัดระวังเพื่อให้แน่ใจว่าพารามิเตอร์ถูกต้องและไม่มีข้อผิดพลาด
+- ควรตรวจสอบพารามิเตอร์ทุกขั้นตอนก่อนส่งคำสั่ง
+
+Sources:
+- Dobot MG400 User Guide V1.7 | p.40 | page_40
+- TCP/IP Remote Control Interface Guide (4-axis) | p.51 | page_51",Dobot MG400 User Guide V1.7 | p.38 | page_38 | Dobot MG400 User Guide V1.7 | p.40 | page_40 | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.69 | page_69 | TCP/IP Remote Control Interface Guide (4-axis) | p.51 | page_51 | TCP/IP Remote Control Interface Guide (4-axis) | p.57 | page_57,0.701 | 0.719 | 0.607 | 0.615 | 0.629,movj|movl|joint|linear|joint,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,manual|manual|software_manual|api_reference|api_reference,Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7 || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) || TCP/IP Remote Control Interface Guide (4-axis) || TCP/IP Remote Control Interface Guide (4-axis),1.49,True
+24,python_api,TCP/IP 4-axis guide ใช้กับ MG400 ได้ไหม?,"คำตอบ: มี 3 ช่องทางในการเชื่อมต่อกับ MG400 ผ่าน TCP/IP
+
+*   ช่องทางแรกคือการใช้ Dashboard ที่ใช้ Port 29999
+    *   ใช้สำหรับการควบคุมและจัดการระบบ เช่น การเปิด/ปิด, การทำความสะอาดข้อผิดพลาด, การเขียนสคริปต์ และการควบคุม I/O และโหมด
+*   ช่องทางที่สองคือการใช้ Motion ที่ใช้ Port 30003
+    *   ใช้สำหรับการเคลื่อนที่และจัดการตำแหน่ง เช่น การทำจุดยืน, การเคลื่อนไหวแบบ MovJ, การเคลื่อนไหวแบบ MovL, การทำวงกลม, การเคลื่อนไหวแบบ Arc และการเคลื่อนไหวแบบ relative
+*   ช่องทางที่สามคือการใช้ Feedback ที่ใช้ Port 30004
+    *   ใช้สำหรับการรับข้อมูลสถานะของระบบ เช่น ข้อมูลความถี่สูงเกี่ยวกับสถานะของระบบ
+
+**ข้อควรระวัง**
+
+*   ควรตรวจสอบต่อ TCP/IP Remote Control Interface Guide (4-axis) และ SDK ที่ใช้หากมีการเปลี่ยนแปลง
+*   ควรปฏิบัติตามข้อแนะนำในการใช้งานและความปลอดภัยที่ระบุไว้ใน User Guide และ MG400 FAQ
+
+**สิ่งที่ควรทำ**
+
+1.  เปิดใช้งาน Dashboard และตรวจสอบการเชื่อมต่อ
+2.  ตรวจสอบการทำงานของระบบและความถูกต้องของข้อมูล
+3.  ใช้ Motion เพื่อเคลื่อนที่และจัดการตำแหน่ง
+4.  ใช้ Feedback เพื่อรับข้อมูลสถานะของระบบ
+
+**แหล่งข้อมูล**
+
+*   [MG400 TCP Ports and Connection Cheat-sheet](#MG400-TCP-Ports-and-Connection-Cheat-sheet)
+*   [MG400 Python TCP Skeleton (connection-first)](#MG400-Python-TCP-Skeleton-(connection-first))
+*   [TCP/IP Remote Control Interface Guide (4-axis)](https://dobot.com/en/support/remote-control/)
+*   [TCP-IP-4Axis-Python README](https://github.com/dobot/dobot_api)
+*   [MG400 FAQ: network communication ports](https://support.dobot.com/hc/en-us/articles/360036111111-Port-list-for-MG400)",MG400 TCP Ports and Connection Cheat-sheet | MG400 Python TCP Skeleton (connection-first) | MG400 Python TCP Skeleton (connection-first) | MG400 TCP Ports and Connection Cheat-sheet | MG400 FAQ: Ip Rating,0.220 | 0.381 | 0.356 | 0.402 | 0.358,4-axis|4axis|mg400|tcp|m1,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,cheat_sheet|cheat_sheet|cheat_sheet|cheat_sheet|faq,MG400 TCP Ports and Connection Cheat-sheet || MG400 Python TCP Skeleton (connection-first) || MG400 Python TCP Skeleton (connection-first) || MG400 TCP Ports and Connection Cheat-sheet || MG400 FAQ: Ip Rating,2.83,True
+25,python_api,dobot_api.py มีคลาสหลักอะไรบ้างสำหรับควบคุม?,"**คลาสหลักสำหรับควบคุม Dobot**
+
+ดอทบอตมีคลาสหลัก 3 คลาสหลักนี้คือ:
+
+*   **DobotApiDashboard**: คลาสนี้สามารถส่งคำสั่งเกี่ยวกับการตั้งค่าของดอทบอตได้ เช่น การเปิด/ปิดการทำงาน
+*   **DobotApiMove**: คลาสนี้สามารถส่งคำสั่งเกี่ยวกับการเคลื่อนที่ของดอทบอตได้ เช่น การเคลื่อนที่ไปตามเส้นทาง
+
+**ขั้นตอนในการใช้งาน**
+
+1.  ติดตั้ง DobotStudio Pro และเปิดโปรแกรม
+2.  เลือกคลาสที่ต้องการใช้งาน (DobotApiDashboard หรือ DobotApiMove)
+3.  ส่งคำสั่งไปยังดอทบอตผ่านคลาสที่เลือก
+
+**แหล่งข้อมูล**
+
+*   [TCP-IP-4Axis-Python README](https://github.com/Dobot-MG400/DobotAPI-Python-README) (EN)
+*   [dobot_api.py](https://github.com/Dobot-MG400/DobotAPI-Python-sdk)",TCP-IP-4Axis-Python README (EN) | TCP-IP-4Axis-Python README (EN) | dobot_api.py (TCP/IP 4-axis Python SDK) | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.6 | page_6 | dobot_api.py (TCP/IP 4-axis Python SDK),0.362 | 0.455 | 0.488 | 0.397 | 0.525,dashboard|move|feed|dobot,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,sdk_code|sdk_code|sdk_code|software_manual|sdk_code,TCP-IP-4Axis-Python README (EN) || TCP-IP-4Axis-Python README (EN) || dobot_api.py (TCP/IP 4-axis Python SDK) || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) || dobot_api.py (TCP/IP 4-axis Python SDK),1.74,True
+26,python_api,ลำดับการเชื่อมต่อ TCP ที่แนะนำก่อนสั่งเคลื่อนที่คืออะไร?,"ลำดับการเชื่อมต่อ TCP ที่แนะนำก่อนสั่งเคลื่อนที่คือ:
+
+* Power on robot; confirm E-stop released and workspace clear.
+* PC และร็อบอทอยู่ในเครือข่ายเดียวกัน (ปกติจะใช้ LAN2 สำหรับ TCP)
+* Enable TCP/IP remote mode ในซอฟต์แวร์ถ้าจำเป็นตามคำแนะนำของเวอร์ชันที่ใช้
+* เปิด Dashboard (29999) ก่อน; ตรวจสอบโหมด / ข้อผิดพลาด
+* ClearError / enable sequence เท่านั้นหลังจากยืนยันคำสั่งทางการของเวอร์ชันที่ใช้
+
+**ข้อควรระวัง**
+
+* ควรเริ่มทดสอบด้วยการเชื่อมต่อแบบอ่านเพียงอย่างเดียวก่อนที่จะเริ่มเคลื่อนที่
+* ควรให้ความสำคัญกับการตรวจสอบและควบคุมระบบด้วยตนเองเสมอ
+
+**แหล่งข้อมูล**
+
+* [TCP/IP Remote Control Interface Guide (4-axis) | p.2 | page_2](https://dobot.com/en/support/remote-control-guide)
+* [MG400 TCP Ports and Connection Cheat-sheet](https://dobot.com/en/support/tcp-ports-cheat-sheet)
+* [TCP/IP Remote Control Interface Guide (4-axis) | p.5 | page_5](https://dobot.com/en/support/remote-control-guide)",MG400 TCP Ports and Connection Cheat-sheet | MG400 TCP Ports and Connection Cheat-sheet | TCP/IP Remote Control Interface Guide (4-axis) | p.4 | page_4 | TCP/IP Remote Control Interface Guide (4-axis) | p.16 | page_16 | TCP/IP Remote Control Interface Guide (4-axis) | p.5 | page_5,0.465 | 0.491 | 0.432 | 0.431 | 0.442,dashboard|29999|error|enable|connect|status,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,cheat_sheet|cheat_sheet|api_reference|api_reference|api_reference,MG400 TCP Ports and Connection Cheat-sheet || MG400 TCP Ports and Connection Cheat-sheet || TCP/IP Remote Control Interface Guide (4-axis) || TCP/IP Remote Control Interface Guide (4-axis) || TCP/IP Remote Control Interface Guide (4-axis),1.94,True
+27,python_api,ClearError ใช้ตอนไหน?,"ClearError ใช้ตอนไหน?
+
+* ClearError ใช้เพื่อจัดล้างการเตือนของเครื่อง
+* สามารถใช้โดยตรงใน DobotStudio Pro โดยไม่ต้องผ่านส่วนใดส่วนหนึ่ง
+* ไม่มีข้อจำกัดในการใช้งาน ClearError
+
+Sources:
+- TCP/IP Remote Control Interface Guide (4-axis) | p.10 | page_10",TCP/IP Remote Control Interface Guide (4-axis) | p.10 | page_10 | CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.187 | page_187 | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.197 | page_197 | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.153 | page_153 | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.181 | page_181,0.568 | 0.578 | 0.578 | 0.580 | 0.592,clear|error|alarm|fault,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,api_reference|software_manual|software_manual|software_manual|software_manual,TCP/IP Remote Control Interface Guide (4-axis) || CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro),0.96,True
+28,python_api,อ่านสถานะหุ่นหรือ feedback ผ่าน TCP ได้อย่างไร?,"อ่านสถานะหุ่นหรือ feedback ผ่าน TCP ได้อย่างไร?
+
+* ใช้การเชื่อมต่อ TCP/IP Remote Control Interface Guide (4-axis) | p.63 | page_63
+* ส่งคำสั่ง ""get status"" หรือ ""feedback"" ไปยัง port 30004, 30005 และ 30006
+* รับข้อมูล feedback ในรูปแบบ little-endian (lower-bit-first)
+* ข้อมูล feedback มีดังนี้
+ + MessageSize: unsigned short
+ + value: 1-2 bytes
+ + Byte position: 0000 - 0015
+ + Description: Total message length in bytes, Reserved
+
+สิ่งสำคัญ:
+- ใช้การเชื่อมต่อ TCP/IP Remote Control Interface Guide (4-axis) | p.63 | page_63
+- ส่งคำสั่ง ""get status"" หรือ ""feedback"" ไปยัง port 30004, 30005 และ 30006
+
+Sources:
+- TCP/IP Remote Control Interface Guide (4-axis) | p.63 | page_63",TCP/IP Remote Control Interface Guide (4-axis) | p.63 | page_63 | TCP/IP Remote Control Interface Guide (4-axis) | p.4 | page_4 | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.85 | page_85 | CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.77 | page_77 | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.176 | page_176,0.412 | 0.453 | 0.317 | 0.317 | 0.414,feedback|30004|status|feed,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,api_reference|api_reference|software_manual|software_manual|software_manual,TCP/IP Remote Control Interface Guide (4-axis) || TCP/IP Remote Control Interface Guide (4-axis) || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) || CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro),1.63,True
+29,python_api,ตัวอย่าง Python อย่างเป็นทางการอยู่ไฟล์ไหน?,"ตัวอย่าง Python อย่างเป็นทางการอยู่ในไฟล์ `PythonExample.py`
+
+Sources:
+- [Source 1] MG400 Python TCP Skeleton (connection-first)
+- [Source 2] TCP-IP-4Axis-Python README (EN)",MG400 Python TCP Skeleton (connection-first) | TCP-IP-4Axis-Python README (EN) | TCP-IP-4Axis-Python README (EN) | dobot_api.py (TCP/IP 4-axis Python SDK) | TCP-IP-4Axis-Python README (EN),0.610 | 0.598 | 0.605 | 0.725 | 0.728,pythonexample|dobot_api|example|readme,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,cheat_sheet|sdk_code|sdk_code|sdk_code|sdk_code,MG400 Python TCP Skeleton (connection-first) || TCP-IP-4Axis-Python README (EN) || TCP-IP-4Axis-Python README (EN) || dobot_api.py (TCP/IP 4-axis Python SDK) || TCP-IP-4Axis-Python README (EN),5.39,True
+30,python_api,นักศึกษาควรรัน motion จากโค้ดครั้งแรกอย่างไรให้ปลอดภัย?,"นักศึกษาควรใช้การเคลื่อนที่แบบ dry-run หรือ simulation จากโค้ดครั้งแรกเพื่อให้ปลอดภัย
+* ใช้การเคลื่อนที่แบบ low speed / reduced velocity ก่อนที่จะเริ่มการเคลื่อนที่จริง
+* ตรวจสอบว่าไม่มีเครื่องมือหรืออุปกรณ์อยู่ในพื้นที่ทำงาน
+* ตรวจสอบว่า E-stop เป็นไปตามมาตรฐานและสามารถเข้าถึงได้
+* ใช้การเคลื่อนที่แบบ connection-only หรือ comment out motion lines จนกว่านักศึกษาจะต้องการเริ่มการเคลื่อนที่จริง
+
+Sources:
+- [MG400 Safety Checklist Before Motion] (section 1)
+- [TCP/IP 4-axis practices]
+- [Dobot MG400 User Guide V1.7 | p.10 | page_10]",MG400 Safety Checklist Before Motion | MG400 Safety Checklist Before Motion | MG400 Safety Checklist Before Motion | MG400 Safety Checklist Before Motion | Dobot MG400 User Guide V1.7 | p.10 | page_10,0.443 | 0.500 | 0.516 | 0.571 | 0.589,low|speed|dry|safety|supervision|ไม่|connect,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,cheat_sheet|cheat_sheet|cheat_sheet|cheat_sheet|manual,MG400 Safety Checklist Before Motion || MG400 Safety Checklist Before Motion || MG400 Safety Checklist Before Motion || MG400 Safety Checklist Before Motion || Dobot MG400 User Guide V1.7,1.47,True
+31,studio,วิธีเริ่มใช้ DobotStudio Pro กับ MG400 คร่าวๆ,"วิธีเริ่มใช้ DobotStudio Pro กับ MG400 คร่าวๆ
+
+1. ดาวน์โหลดและติดตั้ง DobotStudio Pro จากเว็บไซต์ของดโบท
+2. เปิด DobotStudio Pro และเลือกภาษาในการติดตั้ง
+3. คลิก ""ติดตั้ง"" เพื่อเริ่มการติดตั้ง
+4. ตรวจสอบว่าเครื่องมือและอุปกรณ์ที่จำเป็นสำหรับ MG400 ได้ถูกติดตั้งอย่างถูกต้อง
+
+สิ่งที่ควรทราบ:
+- ควรใช้ DobotStudio Pro ที่มีความสม่ำเสมอและปลอดภัย
+- ควรตรวจสอบว่าเครื่องมือและอุปกรณ์ที่จำเป็นสำหรับ MG400 ได้ถูกติดตั้งอย่างถูกต้อง
+
+Sources:
+- [Source 1] DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.6 | page_6
+- [Source 3] Dobot MG400 User Guide V1.7 | p.42 | page_42",DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.6 | page_6 | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.4 | page_4 | Dobot MG400 User Guide V1.7 | p.42 | page_42 | Dobot MG400 User Guide V1.7 | p.36 | page_36 | Dobot MG400 User Guide V1.7 | p.39 | page_39,0.384 | 0.427 | 0.367 | 0.372 | 0.378,studio|dobotstudio|software,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,software_manual|software_manual|manual|manual|manual,DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) || Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7 || Dobot MG400 User Guide V1.7,1.68,True
+32,studio,CRStudio ใช้ทำอะไรกับ MG400?,"CRStudio ใช้ทำการควบคุมและจัดการ MG400 ได้ โดยเฉพาะอย่างยิ่งในการเชื่อมต่อ WiFi และใช้งานใน CR Studio
+
+วิธีการเชื่อมต่อกับ MG400:
+
+*   ตรวจสอบให้แน่ใจว่าโมดูล WiFi ของเครื่องควบคุมมีถูกติดตั้งอยู่
+*   ค้นหา Dobot controller WiFi ในแท็บเล็ตและเชื่อมต่อได้
+    *   ชื่อ WiFi คือ ""MagicianPro""
+    *   รหัสผ่าน WiFi คือ 1234567890 โดยปกติแล้ว
+    *   สามารถปรับเปลี่ยนชื่อ WiFi และรหัสผ่านใน Software setting ภายใต้ mode manager ได้
+*   กด Connect ในหน้าหลักเพื่อเชื่อมต่อกับเครื่องควบคุม MG400
+*   หลังจากเชื่อมต่อกับเครื่องควบคุมได้สำเร็จ หน้าจะถูกอัปเดตเป็นหน้าหลักของ MG400 และปุ่ม Connect จะเปลี่ยนเป็น Disconnect และมีไอคอน WiFi อยู่ทางด้านซ้าย
+
+Sources:
+- [CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro)](https://www.dobot.com/en/support/user-manuals/cr-studio/v4-13-0-mg400-m1-pro) | p.7 | page_7
+- [MG400 Demo: Standard Conveyor Guide](https://www.dobot.com/en/support/user-manuals/mg400-training-system-standard-conveyor-guide/v1-1) | p.5 | page_5
+- [Dobot MG400 User Guide V1.7](https://www.dobot.com/en/support/user-manuals/mg400-user-guide/v1-7) | p.14 | page_14",CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.7 | page_7 | MG400 Demo: Standard Conveyor Guide | p.5 | page_5 | Dobot MG400 User Guide V1.7 | p.14 | page_14 | MG400 Training System Installation Guide | p.28 | page_28 | MG400 Training System Installation Guide | p.27 | page_27,0.450 | 0.431 | 0.442 | 0.455 | 0.458,crstudio|control|mg400|studio,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,software_manual|demo_guide|manual|demo_guide|demo_guide,CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) || MG400 Demo: Standard Conveyor Guide || Dobot MG400 User Guide V1.7 || MG400 Training System Installation Guide || MG400 Training System Installation Guide,2.33,True
+33,studio,ใน Studio สามารถโปรแกรมแบบไหนได้บ้าง เช่น graphical หรือ script?,"ใน Studio สามารถโปรแกรมแบบ Script และ Blockly ได้บ้าง เช่น 
+
+* โมดูล Script: สามารถเขียน Lua สคริปต์สำหรับการควบคุมการเคลื่อนไหวของเครื่องจักร
+* โมดูล Blockly: สามารถใช้บล็อกในการเขียนสคริปต์สำหรับการควบคุมการเคลื่อนไหวของเครื่องจักร
+
+เพื่อเริ่มต้นโปรแกรม Script หรือ Blockly คุณสามารถทำตามขั้นตอนดังนี้:
+
+* เปิด Studio และเชื่อมต่อกับเครื่องจักร MG400/M1 Pro
+* เลือกโหมดการทำงานที่ต้องการ (Script หรือ Blockly)
+* ใช้บล็อกในการเขียนสคริปต์หรือเขียน Lua สคริปต์เอง
+
+Sources:
+- CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.59 | page_59
+- CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.55 | page_55",CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.59 | page_59 | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.14 | page_14 | CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.9 | page_9 | CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.6 | page_6 | CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.55 | page_55,0.477 | 0.526 | 0.540 | 0.542 | 0.552,blockly|lua|script|program,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,software_manual|software_manual|software_manual|software_manual|software_manual,CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) || CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) || CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) || CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro),1.63,True
+34,studio,drag-to-teach หรือ hand guiding บน MG400 ใช้ทำอะไร?,"drag-to-teach หรือ hand guiding บน MG400 ใช้ทำอะไร?
+
+* สามารถใช้ drag-to-teach หรือ hand guiding เพื่อควบคุมจุดหมายปลายของ MG400 ได้
+* เมื่อใช้ drag-to-teach จะแสดงสัญลักษณ์ Flash Hand-guiding status บนหน้าจอ
+* ควรตรวจสอบว่าระบบมีไฟและทำงานอย่างถูกต้องก่อนใช้งาน
+
+Sources:
+- [Source 2] Dobot MG400 User Guide V1.7 | p.14 | page_14
+- [Source 3] MG400 Training System Installation Guide | p.8 | page_8",MG400 Demo: Standard Conveyor Guide | p.5 | page_5 | Dobot MG400 User Guide V1.7 | p.14 | page_14 | MG400 Training System Installation Guide | p.8 | page_8 | MG400 FAQ: Control Box | MG400 Training System Installation Guide | p.7 | page_7,0.293 | 0.311 | 0.335 | 0.338 | 0.351,teach|drag|hand|guide,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,demo_guide|manual|demo_guide|faq|demo_guide,MG400 Demo: Standard Conveyor Guide || Dobot MG400 User Guide V1.7 || MG400 Training System Installation Guide || MG400 FAQ: Control Box || MG400 Training System Installation Guide,1.29,True
+35,studio,ก่อนเชื่อม Studio กับหุ่น ควรเช็ค network อะไร?,"ก่อนเชื่อม Studio กับหุ่น ควรเช็ค network อะไร?
+
+* ควรตรวจสอบว่า PC และหุ่นอยู่ในเครือข่ายเดียวกัน (LAN2)
+* ควรตรวจสอบว่า IP address ของหุ่นและ PC อยู่ในเครือข่ายเดียวกัน
+* หากหุ่นมีหลาย LAN interface ควรเลือกใช้ LAN1 หรือ LAN2 ที่เหมาะสม
+
+Sources:
+- [Source 1] MG400 TCP Ports and Connection Cheat-sheet (section: Safe connection checklist)
+- [Source 4] DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.23 | page_23",MG400 TCP Ports and Connection Cheat-sheet | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.9 | page_9 | CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.6 | page_6 | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.23 | page_23 | MG400 Safety Checklist Before Motion,0.314 | 0.419 | 0.430 | 0.449 | 0.535,ip|lan|network|connect|192.168,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,cheat_sheet|software_manual|software_manual|software_manual|cheat_sheet,MG400 TCP Ports and Connection Cheat-sheet || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) || CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) || MG400 Safety Checklist Before Motion,1.25,True
+36,studio,DobotStudio Pro กับ CRStudio ต่างกันอย่างไรในภาพรวม?,"DobotStudio Pro และ CR Studio มีลักษณะการใช้งานที่คล้ายกัน แต่มีความแตกต่างกันในบางด้าน
+
+1.  **การควบคุม**: ทั้ง DobotStudio Pro และ CR Studio สามารถควบคุมอุปกรณ์robot ได้
+2.  **ระบบปฏิบัติการ**: DobotStudio Pro รองรับ Windows 7, 10 และ 11 ในขณะที่ CR Studio รองรับ Android และ iOS
+3.  **การออกแบบ**: ทั้งสองมีหน้าจอหลักและฟังก์ชันหลักที่คล้ายกัน แต่ DobotStudio Pro มีการออกแบบที่เรียบง่ายกว่า
+4.  **การดาวน์โหลด**: DobotStudio Pro สามารถดาวน์โหลดได้จากเว็บไซต์ของ Dobot ในขณะที่ CR Studio สามารถดาวน์โหลดได้จาก App Store หรือ Google Play
+
+**ความแตกต่างหลัก**
+
+*   DobotStudio Pro มีการรองรับระบบปฏิบัติการ Windows 7, 10 และ 11
+*   CR Studio มีการออกแบบที่เรียบง่ายกว่าและสามารถควบคุมอุปกรณ์robot ได้โดยตรงผ่าน App
+
+**ข้อควรระวัง**
+
+*   ควรตรวจสอบความปลอดภัยของอุปกรณ์robot ก่อนการใช้งาน
+*   ควรใช้เครื่องมือที่เหมาะสมกับอุปกรณ์robot เพื่อให้ได้ผลลัพธ์ที่ดีที่สุด
+
+**แหล่งข้อมูล**
+
+*   DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.6 | page_6
+*   CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.63 | page_63",CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.6 | page_6 | CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.63 | page_63 | CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.9 | page_9 | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.6 | page_6 | CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.4 | page_4,0.412 | 0.454 | 0.455 | 0.467 | 0.470,studio|crstudio|app|software,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,software_manual|software_manual|software_manual|software_manual|software_manual,CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) || CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) || CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) || CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro),2.34,True
+37,demo,ตัวอย่างโครงงาน palletizing กับ MG400 มีอะไรบ้าง?,"ตัวอย่างโครงงาน palletizing กับ MG400 มีดังนี้
+
+*   สามารถทำได้ 2 แบบ ได้แก่ โคแ็กซियल (coaxial) และออฟเอ็กซ์เอซิส (off-axis)
+*   ในการทำงานโคแ็กซियल คือ เมื่อพาเลทติ้งเครื่องมือ (sucker) ถูกติดตั้งที่ปลายของหัวจับ (end effector) ซึ่งเป็นไปตาม J4
+*   ในการทำงานออฟเอ็กซ์เอซิส คือ เมื่อพาเลทติ้งเครื่องมือ (sucker) ถูกติดตั้งที่ปลายของหัวจับ (end effector) ผ่านล้อหมุน (eccentric flange) ไม่ถูกติดตั้งที่ J4
+*   สามารถนำโครงงานพาเลทติ้งมาใช้ได้โดยการนำข้อมูลจากส่วนประกอบต่างๆ มาใส่ในระบบ และทำการตั้งค่าตามความต้องการ
+
+Sources:
+- [MG400 Demo: Standard Conveyor Guide | p.5 | page_5](https://yuejiang-tech.com/mg400-training-system-standard-conveyor-demo-guide-issue-v1-1-2023-01-06)
+- [Training System: 2-MG400 Training System Palletizing Demo Guide | p.5 | page_5](https://yuejiang-tech.com/mg400-training-system-palletizing-demo-guide-issue-v1-1-2023-01-06)
+- [MG400 Demo: Standard Conveyor Guide | p.9 | page_9](https://yuejiang-tech.com/mg400-training-system-standard-conveyor-demo-guide-issue-v1-1-2023-01-06)",MG400 Demo: Standard Conveyor Guide | p.5 | page_5 | MG400 Demo: Vision Palletizing Guide | p.5 | page_5 | Training System: 2-MG400 Training System Palletizing Demo Guide | p.5 | page_5 | Training System: 2-MG400 Training System Palletizing Demo Guide | p.21 | page_21 | MG400 Demo: Standard Conveyor Guide | p.9 | page_9,0.301 | 0.316 | 0.325 | 0.334 | 0.334,pallet|demo|training,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,demo_guide|demo_guide|demo_guide|demo_guide|demo_guide,MG400 Demo: Standard Conveyor Guide || MG400 Demo: Vision Palletizing Guide || Training System: 2-MG400 Training System Palletizing Demo Guide || Training System: 2-MG400 Training System Palletizing Demo Guide || MG400 Demo: Standard Conveyor Guide,2.19,True
+38,demo,dynamic palletizing ต่างจาก palletizing ธรรมดาอย่างไรคร่าวๆ?,"dynamic palletizing ต่างจาก palletizing ธรรมดาอย่างไรคร่าวๆ?
+
+* dynamic palletizing คือการวางของที่เคลื่อนที่บนแถวโดยใช้ MG400 เพื่อให้สามารถจัดเรียงของได้อย่างรวดเร็วและแม่นยำ
+* ในขณะที่ palletizing ธรรมดาเป็นการวางของที่ไม่เคลื่อนที่บนแถวโดยตรง
+
+**ขั้นตอนการทำงาน**
+
+1. วางของที่จะพalletize บนแถว
+2. MG400 จะตรวจจับตำแหน่งของของและวางไว้ในตำแหน่งที่เหมาะสม
+3. การทำงานจะดำเนินต่อไปจนกว่าของจะถูกพาเลทได้สำเร็จ
+
+**ความแตกต่างจาก palletizing ธรรมดา**
+
+* dynamic palletizing ใช้การเคลื่อนที่ของเพื่อให้สามารถจัดเรียงของได้อย่างรวดเร็วและแม่นยำ
+* ในขณะที่ palletizing ธรรมดาใช้วิธีการวางของโดยตรง
+
+**สิ่งที่ต้องพิจารณา**
+
+* การตรวจจับตำแหน่งของและวางไว้ในตำแหน่งที่เหมาะสม
+* การควบคุมการเคลื่อนที่ของเพื่อให้สามารถจัดเรียงของได้อย่างรวดเร็วและแม่นยำ
+
+Sources:
+- [MG400 Demo: Dynamic Palletizing Guide | p.5 | page_5](https://yuejiang-tech.com/mg400-dynamic-palletizing-guide/)
+- [Training System: 2-MG400 Training System Palletizing Demo Guide | p.5 | page_5](https://yuejiang-tech.com/mg400-training-system-palletizing-demo-guide/)
+- [DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.88 | page_88](https://dostudio.pro/user-guide/v2.8.0/)
+- [CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.79 | page_79](https://crstudio.pro/user-guide/v4.13.0/)",MG400 Demo: Dynamic Palletizing Guide | p.5 | page_5 | MG400 Demo: Dynamic Palletizing Guide | p.30 | page_30 | Training System: 2-MG400 Training System Palletizing Demo Guide | p.5 | page_5 | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.88 | page_88 | CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.79 | page_79,0.482 | 0.567 | 0.570 | 0.452 | 0.452,dynamic|pallet|conveyor,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,demo_guide|demo_guide|demo_guide|software_manual|software_manual,MG400 Demo: Dynamic Palletizing Guide || MG400 Demo: Dynamic Palletizing Guide || Training System: 2-MG400 Training System Palletizing Demo Guide || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) || CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro),2.57,True
+39,demo,vision palletizing ใช้วิชันช่วยอะไร?,"วิชันช่วย (vision) ใช้ในการ ""Configure vision parameters"" และ ""Place chips and phone cover""
+
+ขั้นตอนการใช้งาน:
+
+* ทำการตรวจสอบและปรับแต่งค่าผู้ใช้วิชัน
+* ใส่ชิปและปกโทรศัพท์ตามที่วิชันช่วยแนะนำ
+
+หมายเหตุ: ควรปฏิบัติตามข้อกำหนดความปลอดภัยในการทำงานกับวิชันช่วย
+
+แหล่งข้อมูล:
+- [MG400 Demo: Vision Palletizing Guide | p.4 | page_4]
+- [MG400 Demo: Mobile Phone Chip Sorting Guide | p.4 | page_4]",MG400 Demo: Vision Palletizing Guide | p.15 | page_15 | MG400 Demo: Vision Palletizing Guide | p.4 | page_4 | MG400 Demo: Vision Palletizing Guide | p.9 | page_9 | MG400 Demo: Vision Palletizing Guide | p.1 | page_1 | MG400 Demo: Mobile Phone Chip Sorting Guide | p.4 | page_4,0.457 | 0.476 | 0.479 | 0.494 | 0.509,vision|pallet,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,demo_guide|demo_guide|demo_guide|demo_guide|demo_guide,MG400 Demo: Vision Palletizing Guide || MG400 Demo: Vision Palletizing Guide || MG400 Demo: Vision Palletizing Guide || MG400 Demo: Vision Palletizing Guide || MG400 Demo: Mobile Phone Chip Sorting Guide,1.18,True
+40,demo,demo สายพาน conveyor กับ MG400 เกี่ยวกับอะไร?,"demo สายพาน conveyor กับ MG400 เกี่ยวกับการจัดตำแหน่งของวัสดุ
+
+* วัสดุที่จะถูกนำมาเก็บจะถูกนำมาเก็บจากสายพานและนำไปวางที่ตำแหน่งที่กำหนดโดยระบบ MG400
+* ระบบจะใช้ MG400 และเซนเซอร์เพื่อควบคุมการเคลื่อนที่ของวัสดุ
+
+Sources:
+- [MG400 Demo: Standard Conveyor Guide | p.5 | page_5]
+- [MG400 Training System Standard Conveyor Demo Guide | Issue V1.1 (2023-01-06) Demo Guide Copyright Y uejiang Technology Co., Ltd.]",MG400 Demo: Standard Conveyor Guide | p.5 | page_5 | MG400 Demo: Standard Conveyor Guide | p.8 | page_8 | MG400 Demo: Standard Conveyor Guide | p.9 | page_9 | MG400 Demo: Standard Conveyor Guide | p.15 | page_15 | MG400 Demo: Standard Conveyor Guide | p.12 | page_12,0.244 | 0.266 | 0.267 | 0.268 | 0.270,conveyor|sensor|standard,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,demo_guide|demo_guide|demo_guide|demo_guide|demo_guide,MG400 Demo: Standard Conveyor Guide || MG400 Demo: Standard Conveyor Guide || MG400 Demo: Standard Conveyor Guide || MG400 Demo: Standard Conveyor Guide || MG400 Demo: Standard Conveyor Guide,1.14,True
+41,demo,mobile phone chip sorting demo ทำอะไร?,"ทำอะไรในการ mobile phone chip sorting demo?
+
+1. Place chips and phone cover
+2. ทำตามขั้นตอนต่อไปนี้:
+   - วางชิปและปกโทรศัพท์
+   - ตรวจสอบว่าชิปและปกโทรศัพท์อยู่ในตำแหน่งที่ถูกต้อง
+   - ทำความเข้าใจว่า MG400 สามารถจัดการกับชิปและปกโทรศัพท์ได้อย่างไร
+
+Sources:
+- [MG400 Demo: Mobile Phone Chip Sorting Guide | p.15 | page_15]
+- [MG400 Demo: Mobile Phone Chip Sorting Guide | p.1 | page_1]
+- [MG400 Demo: Mobile Phone Chip Sorting Guide | p.14 | page_14]
+- [MG400 Demo: Mobile Phone Chip Sorting Guide | p.11 | page_11]
+- [MG400 Demo: Mobile Phone Chip Sorting Guide | p.10 | page_10]",MG400 Demo: Mobile Phone Chip Sorting Guide | p.15 | page_15 | MG400 Demo: Mobile Phone Chip Sorting Guide | p.1 | page_1 | MG400 Demo: Mobile Phone Chip Sorting Guide | p.14 | page_14 | MG400 Demo: Mobile Phone Chip Sorting Guide | p.11 | page_11 | MG400 Demo: Mobile Phone Chip Sorting Guide | p.10 | page_10,0.244 | 0.252 | 0.259 | 0.259 | 0.259,chip|sort|phone|sorting,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,demo_guide|demo_guide|demo_guide|demo_guide|demo_guide,MG400 Demo: Mobile Phone Chip Sorting Guide || MG400 Demo: Mobile Phone Chip Sorting Guide || MG400 Demo: Mobile Phone Chip Sorting Guide || MG400 Demo: Mobile Phone Chip Sorting Guide || MG400 Demo: Mobile Phone Chip Sorting Guide,1.31,True
+42,demo,ถ้านักศึกษาจะเลือกโครง pick-and-place ง่าย ควรเริ่มจาก demo ไหน?,"**เลือกโครง pick-and-place ง่าย ควรเริ่มจาก demo ไหน?**
+
+* ให้ความสำคัญกับ Demo: Demo เป็นแนวทางปฏิบัติที่แนะนำสำหรับการเรียนรู้และฝึกอบรมโครง pick-and-place
+* Demo 2-MG400 Training System Palletizing Demo Guide เป็นตัวอย่างที่ดีในการเริ่มต้น เนื่องจากมีการอธิบายรายละเอียดเกี่ยวกับขั้นตอนการทำงานและการตั้งค่า
+
+**ขั้นตอนทั่วไป:**
+
+1. เริ่มต้นจาก Demo 2-MG400 Training System Palletizing Demo Guide
+2. อ่านและทำตามคำแนะนำใน Demo เพื่อเข้าใจกระบวนการ pick-and-place
+3. หลังจากทำตาม Demo แล้ว คุณสามารถเริ่มสร้างโครง pick-and-place ของตัวเองได้
+
+**หมายเหตุ:**
+
+* ตรวจสอบให้แน่ใจว่าคุณทำตามขั้นตอนความปลอดภัยก่อนเริ่มต้นการทำงาน
+* ใช้ DobotStudio Pro เพื่อสร้างและฝึกอบรมโครง pick-and-place ของตัวเอง
+
+**Sources:**
+- [Source 3] Training System: 2-MG400 Training System Palletizing Demo Guide | p.14 | page_14
+- [Source 4] MG400 Demo: Vision Palletizing Guide | p.21 | page_21",MG400 Safety Checklist Before Motion | MG400 Training System Installation Guide | p.4 | page_4 | Training System: 2-MG400 Training System Palletizing Demo Guide | p.14 | page_14 | MG400 Demo: Vision Palletizing Guide | p.21 | page_21 | Training System: 2-MG400 Training System Palletizing Demo Guide | p.13 | page_13,0.508 | 0.538 | 0.555 | 0.565 | 0.582,pallet|pick|demo|training,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,cheat_sheet|demo_guide|demo_guide|demo_guide|demo_guide,MG400 Safety Checklist Before Motion || MG400 Training System Installation Guide || Training System: 2-MG400 Training System Palletizing Demo Guide || MG400 Demo: Vision Palletizing Guide || Training System: 2-MG400 Training System Palletizing Demo Guide,1.91,True
+43,demo,training system installation ควรดูเอกสารไหน?,"การอ่านเอกสารที่แนะนำสำหรับการติดตั้งระบบฝึกอบรม MG400 คือ:
+
+* หน้า 26 และหน้า 27 ของ ""MG400 Training System Installation Guide"" (ฉบับ V1.1, วันที่ 6 มกราคม 2566)
+* สิ่งที่สำคัญคือการตรวจสอบและติดตั้งระบบฝึกอบรมให้ถูกต้องตามขั้นตอนบนหน้า 26 และ 27
+
+หากคุณต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการติดตั้งระบบฝึกอบรม MG400 ควรอ่านเอกสาร ""MG400 Training System Installation Guide"" (ฉบับ V1.1, วันที่ 6 มกราคม 2566) ทั้งหมด
+
+Sources:
+- หน้า 26 และหน้า 27 ของ ""MG400 Training System Installation Guide"" (ฉบับ V1.1, วันที่ 6 มกราคม 2566)
+- หน้า 17 และหน้า 16 ของ ""MG400 Training System Installation Guide"" (ฉบับ V1.1, วันที่ 6 มกราคม 2566)",MG400 Training System Installation Guide | p.26 | page_26 | MG400 Training System Installation Guide | p.17 | page_17 | MG400 Training System Installation Guide | p.16 | page_16 | MG400 Training System Installation Guide | p.27 | page_27 | MG400 Training System Installation Guide | p.20 | page_20,0.354 | 0.366 | 0.366 | 0.367 | 0.370,install|training|guide,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,demo_guide|demo_guide|demo_guide|demo_guide|demo_guide,MG400 Training System Installation Guide || MG400 Training System Installation Guide || MG400 Training System Installation Guide || MG400 Training System Installation Guide || MG400 Training System Installation Guide,1.6,True
+44,demo,ใน training มีสคริปต์ Lua ตัวอย่างเรื่องอะไรบ้าง?,"สคริปต์ Lua ตัวอย่างที่มีใน training มีดังนี้:
+
+* สคริปต์สำหรับการควบคุมการเคลื่อนที่ (motion commands)
+* สคริปต์สำหรับการใช้คำสั่ง TCP/UDP
+* สคริปต์สำหรับการควบคุมอุปกรณ์อื่นๆ ของ Dobot
+
+หากคุณต้องการเรียนรู้ Lua Programming อย่างเป็นระบบ คุณสามารถค้นหา tutorial บน Internet ได้
+
+Sources:
+- CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.137 | page_137
+- DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.146 | page_146",CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.137 | page_137 | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.146 | page_146 | CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.59 | page_59 | DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) | p.146 | page_146 | CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) | p.137 | page_137,0.387 | 0.389 | 0.489 | 0.512 | 0.512,lua|led|script,False,0,4,good,doc_type ไม่ตรงกลุ่มที่คาด,software_manual|software_manual|software_manual|software_manual|software_manual,CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) || CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro) || DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro) || CRStudio User Guide V4.13.0 / 2.14.0 (MG400 & M1 Pro),1.32,True
+45,hardware,MG400 มี control box แยกไหม?,"MG400 มี control box แยกไม่ได้ เพราะ มี design ที่ controller และ servo drive อยู่ที่ฐานของเรโบต
+
+* มีขนาดเล็กพอที่จะพกพาได้
+* ระบบควบคุมและขับเคลื่อนเสิร์วอยอยู่ที่ฐาน
+* ไม่มี control box แยกออกมา
+
+Sources:
+- [MG400 FAQ: Control Box](#Q: Does the MG400 have a control box?)
+- [MG400 Demo: Standard Conveyor Guide | p.5 | page_5](#MG400 Training System Standard Conveyor Demo Guide)",MG400 FAQ: Control Box | MG400 Demo: Standard Conveyor Guide | p.5 | page_5 | MG400 Training System Installation Guide | p.18 | page_18 | MG400 Training System Installation Guide | p.13 | page_13 | MG400 Training System Installation Guide | p.8 | page_8,0.207 | 0.290 | 0.321 | 0.326 | 0.327,all-in-one|base|controller|control box,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,faq|demo_guide|demo_guide|demo_guide|demo_guide,MG400 FAQ: Control Box || MG400 Demo: Standard Conveyor Guide || MG400 Training System Installation Guide || MG400 Training System Installation Guide || MG400 Training System Installation Guide,1.15,True
+46,hardware,MG400 มีเบรก (brakes) ไหม?,"MG400 มีเบรก (brakes) ไหม?
+
+• มีเบรกที่จุด J2 และ J3 เท่านั้น
+• จุด J1 และ J4 ไม่มีเบรกเนื่องจากไม่เกี่ยวข้องกับการหยุดชั่วคราว
+
+สิ่งที่ควรทำก่อนการเคลื่อนไหว:
+- ตรวจสอบความปลอดภัยของจุด J2 และ J3 ก่อนการเคลื่อนไหว
+- ใช้ระบบควบคุมความปลอดภัยเพื่อป้องกันการเกิดอุบัติเหตุ
+
+Sources:
+- [MG400 Safety Checklist Before Motion] (section: # MG400 safety checklist before motion (MovJ / MovL / Jump))
+- [MG400 FAQ: Brakes](Q: มีเบรก (brakes) ไหม?)",MG400 Safety Checklist Before Motion | MG400 FAQ: Brakes | MG400 FAQ: What Is Mg400 | MG400 Training System Installation Guide | p.24 | page_24 | MG400 FAQ: Control Box,0.400 | 0.314 | 0.376 | 0.377 | 0.397,brake|brakes,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,cheat_sheet|faq|faq|demo_guide|faq,MG400 Safety Checklist Before Motion || MG400 FAQ: Brakes || MG400 FAQ: What Is Mg400 || MG400 Training System Installation Guide || MG400 FAQ: Control Box,1.32,True
+47,hardware,พัดลมระบายความร้อนที่ฐาน MG400 ทำหน้าที่อะไร?,"พัดลมระบายความร้อนที่ฐาน MG400 ทำหน้าที่เป็นเครื่องช่วยในการระบายความร้อนเมื่ออุณหภูมิภายในเกินขอบเขตที่กำหนด โดยจะทำงานโดยอัตโนมัติเมื่ออุณหภูมิเกินขีดจำกัด
+
+- เมื่ออุณหภูมิเกินขีดจำกัด พัดลมระบายความร้อนจะทำงาน
+- ทำหน้าที่ช่วยให้อุณหภูมิภายในไม่เกินขอบเขตที่กำหนด
+- ควรตรวจสอบอุณหภูมิและใช้พัดลมระบายความร้อนเมื่อจำเป็น
+
+Sources:
+- [MG400 FAQ: Base Cooling Fan](https://www.dobot.com/en/support/faq/base-cooling-fan)
+- [MG400 Demo: Standard Conveyor Guide | p.5 | page_5](https://www.dobot.com/en/support/demo/mg400-training-system-standard-conveyor-guide)",MG400 FAQ: Base Cooling Fan | MG400 Demo: Standard Conveyor Guide | p.5 | page_5 | MG400 FAQ: What Is Mg400 | MG400 Training System Installation Guide | p.13 | page_13 | MG400 Demo: Standard Conveyor Guide | p.9 | page_9,0.238 | 0.428 | 0.433 | 0.458 | 0.459,fan|cool|base|heat,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,faq|demo_guide|faq|demo_guide|demo_guide,MG400 FAQ: Base Cooling Fan || MG400 Demo: Standard Conveyor Guide || MG400 FAQ: What Is Mg400 || MG400 Training System Installation Guide || MG400 Demo: Standard Conveyor Guide,1.53,True
+48,hardware,ENC interface หรือ encoder บน MG400 ใช้ทำอะไร?,"ENC interface หรือ encoder บน MG400 ใช้ทำอะไร?
+
+* ใช้สำหรับเชื่อมต่อแบรนด์ ABZ และใช้ฟังก์ชันการตามเคลื่อนที่แบบมีเครื่องหมาย (dynamic tracking) บนเครื่อง
+* ไม่สามารถอ่านค่าจากเอนโคเดอรได้ แต่ต้องใช้ร่วมกับแถบส่งของและฟังก์ชันการตามเคลื่อนที่บนคอมพิวเตอร์ข้างต้น
+
+Sources:
+- [MG400 FAQ: Enc Interface Encoder](https://docs.dobot.com/enc-interface-encoder)
+- [Dobot MG400 User Guide V1.7 | p.23 | page_23](https://docs.dobot.com/mg400-user-guide-v1-7)",MG400 FAQ: Enc Interface Encoder | MG400 TCP Ports and Connection Cheat-sheet | Dobot MG400 User Guide V1.7 | p.23 | page_23 | MG400 Training System Installation Guide | p.11 | page_11 | Dobot MG400 User Guide V1.7 | p.24 | page_24,0.180 | 0.534 | 0.423 | 0.388 | 0.469,enc|encoder|interface,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,faq|cheat_sheet|manual|demo_guide|manual,MG400 FAQ: Enc Interface Encoder || MG400 TCP Ports and Connection Cheat-sheet || Dobot MG400 User Guide V1.7 || MG400 Training System Installation Guide || Dobot MG400 User Guide V1.7,1.28,True
+49,teaching,ออกแบบลำดับเรียน MG400 3 ครั้งแล็บสำหรับนักศึกษาวิศวกรรม ควรมีหัวข้ออะไร?,"ออกแบบลำดับเรียน MG400 3 ครั้งแล็บสำหรับนักศึกษาวิศวกรรม ควรประกอบด้วยหัวข้อต่อไปนี้:
+
+* Robot programming and debugging
+* User/Tool coordinate system settings
+* Palletizing
+* Dynamic grasping
+* Trajectory programming
+
+สิ่งที่ควรพิจารณาเพิ่มเติม:
+- ตรวจสอบความปลอดภัยก่อนเริ่มการฝึกซ้อม (Safety checklist)
+- ใช้เครื่องมือและอุปกรณ์ที่จำเป็นสำหรับการฝึกซ้อม (Tools and equipment)
+
+Sources:
+- [Source 1] MG400 Training System Installation Guide | p.8 | page_8
+- [Source 2] Training System: 2-MG400 Training System Palletizing Demo Guide | p.3 | page_3",MG400 Training System Installation Guide | p.8 | page_8 | Training System: 2-MG400 Training System Palletizing Demo Guide | p.3 | page_3 | MG400 Demo: Standard Conveyor Guide | p.9 | page_9 | MG400 Training System Installation Guide | p.26 | page_26 | MG400 Training System Installation Guide | p.3 | page_3,0.380 | 0.392 | 0.397 | 0.399 | 0.408,safety|demo,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,demo_guide|demo_guide|demo_guide|demo_guide|demo_guide,MG400 Training System Installation Guide || Training System: 2-MG400 Training System Palletizing Demo Guide || MG400 Demo: Standard Conveyor Guide || MG400 Training System Installation Guide || MG400 Training System Installation Guide,1.37,True
+50,teaching,คำถามที่นักศึกษาควรถามตัวเองก่อนรันโค้ดสั่งหุ่นจริงมีอะไรบ้าง?,"คำถามที่นักศึกษาควรถามตัวเองก่อนรันโค้ดสั่งหุ่นจริงมีอะไรบ้าง?
+
+* ควรตรวจสอบความปลอดภัยของหุ่นจักรยานยนต์ก่อนใช้งาน
+* ควรตรวจสอบการเชื่อมต่อและข้อมูล IP ของหุ่นจักรยานยนต์ก่อนใช้งาน
+* ควรตรวจสอบว่าหุ่นจักรยานยนต์อยู่ในโหมด ""ROBOT_MODE_ENABLE"" หรือไม่
+* ควรตรวจสอบว่าหุ่นจักรยานยนต์ไม่มีอาการผิดปกติหรือมีปัญหาใดๆ ก่อนใช้งาน
+
+สิ่งที่ควรทำก่อนรันโค้ดสั่งหุ่นจริง:
+
+* ตรวจสอบความปลอดภัยของหุ่นจักรยานยนต์
+* ตรวจสอบการเชื่อมต่อและข้อมูล IP ของหุ่นจักรยานยนต์
+* ใช้โค้ดทดสอบหรือโค้ด dry-run ก่อนใช้งาน
+* ใช้หุ่นจักรยานยนต์ในโหมด ""ROBOT_MODE_ENABLE"" หรือโหมด ""ROBOT_MODE_PAUSE""
+* ตรวจสอบว่าหุ่นจักรยานยนต์ไม่มีอาการผิดปกติหรือมีปัญหาใดๆ ก่อนใช้งาน
+
+Sources:
+- [MG400 Safety Checklist Before Motion] (section/ page if available)
+- [TCP-IP-4Axis-Python README] (section/ page if available)
+- [TCP/IP Remote Control Interface Guide (4-axis)] (page 29)",MG400 Safety Checklist Before Motion | TCP-IP-4Axis-Python README (EN) | TCP-IP-4Axis-Python README (EN) | TCP-IP-4Axis-Python README (EN) | TCP/IP Remote Control Interface Guide (4-axis) | p.29 | page_29,0.440 | 0.562 | 0.573 | 0.591 | 0.599,safety|coordinate|supervision,True,0,5,good,ผ่านเกณฑ์อัตโนมัติ,cheat_sheet|sdk_code|sdk_code|sdk_code|api_reference,MG400 Safety Checklist Before Motion || TCP-IP-4Axis-Python README (EN) || TCP-IP-4Axis-Python README (EN) || TCP-IP-4Axis-Python README (EN) || TCP/IP Remote Control Interface Guide (4-axis),2.1,True

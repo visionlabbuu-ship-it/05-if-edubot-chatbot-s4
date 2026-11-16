@@ -1,0 +1,17 @@
+.env
+.env.*
+.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+chatbot/data/chroma/
+chatbot/data/processed/markdown/
+chatbot/data/processed/chunks.jsonl
+corpus/
+*.sqlite3
+*.db
+*.bin
+*.pickle
+*.log
+*.out
+*.err

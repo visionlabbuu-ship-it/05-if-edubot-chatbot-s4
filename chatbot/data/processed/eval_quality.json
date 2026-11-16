@@ -1,0 +1,225 @@
+[
+  {
+    "question": "MG400 payload และ working radius เท่าไร?",
+    "ok": true,
+    "hits": [
+      "500",
+      "440",
+      "reach",
+      "spec",
+      "user guide",
+      "product"
+    ],
+    "type_hit": true,
+    "noise_chunks": 0,
+    "types": [
+      "faq",
+      "faq",
+      "manual",
+      "faq",
+      "manual"
+    ],
+    "titles": [
+      "MG400 FAQ: Control Box",
+      "MG400 FAQ: What Is Mg400",
+      "Dobot MG400 User Guide V1.7",
+      "MG400 FAQ: Ip Rating",
+      "Dobot MG400 User Guide V1.7"
+    ],
+    "top_dist": 0.3415846824645996
+  },
+  {
+    "question": "MG400 ใช้ port อะไรบ้างสำหรับ dashboard motion feedback?",
+    "ok": true,
+    "hits": [
+      "29999",
+      "30003",
+      "30004",
+      "dashboard",
+      "port"
+    ],
+    "type_hit": true,
+    "noise_chunks": 0,
+    "types": [
+      "cheat_sheet",
+      "cheat_sheet",
+      "api_reference",
+      "api_reference",
+      "api_reference"
+    ],
+    "titles": [
+      "MG400 TCP Ports and Connection Cheat-sheet",
+      "MG400 Safety Checklist Before Motion",
+      "TCP/IP Remote Control Interface Guide (4-axis)",
+      "TCP/IP Remote Control Interface Guide (4-axis)",
+      "TCP/IP Remote Control Interface Guide (4-axis)"
+    ],
+    "top_dist": 0.4129166603088379
+  },
+  {
+    "question": "ก่อนสั่ง MovJ ต้องตรวจ safety อะไรบ้าง?",
+    "ok": true,
+    "hits": [
+      "safety",
+      "checklist",
+      "e-stop",
+      "workspace",
+      "enable",
+      "movj",
+      "guard"
+    ],
+    "type_hit": true,
+    "noise_chunks": 0,
+    "types": [
+      "cheat_sheet",
+      "cheat_sheet",
+      "manual",
+      "manual",
+      "manual"
+    ],
+    "titles": [
+      "MG400 Safety Checklist Before Motion",
+      "MG400 Safety Checklist Before Motion",
+      "Dobot MG400 User Guide V1.7",
+      "Dobot MG400 User Guide V1.7",
+      "Dobot MG400 User Guide V1.7"
+    ],
+    "top_dist": 0.44488489627838135
+  },
+  {
+    "question": "วิธีเริ่มใช้ DobotStudio Pro กับ MG400",
+    "ok": true,
+    "hits": [
+      "studio",
+      "dobotstudio"
+    ],
+    "type_hit": true,
+    "noise_chunks": 0,
+    "types": [
+      "software_manual",
+      "software_manual",
+      "manual",
+      "manual",
+      "manual"
+    ],
+    "titles": [
+      "DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro)",
+      "DobotStudio Pro User Guide V2.8.0 (MG400 & M1 Pro)",
+      "Dobot MG400 User Guide V1.7",
+      "Dobot MG400 User Guide V1.7",
+      "Dobot MG400 User Guide V1.7"
+    ],
+    "top_dist": 0.3736277222633362
+  },
+  {
+    "question": "ตัวอย่างโครงงาน palletizing กับ MG400",
+    "ok": true,
+    "hits": [
+      "pallet",
+      "palletizing",
+      "demo",
+      "training"
+    ],
+    "type_hit": true,
+    "noise_chunks": 0,
+    "types": [
+      "demo_guide",
+      "demo_guide",
+      "demo_guide",
+      "demo_guide",
+      "demo_guide"
+    ],
+    "titles": [
+      "MG400 Demo: Vision Palletizing Guide",
+      "Training System: 2-MG400 Training System Palletizing Demo Guide",
+      "MG400 Demo: Standard Conveyor Guide",
+      "Training System: 2-MG400 Training System Palletizing Demo Guide",
+      "MG400 Demo: Dynamic Palletizing Guide"
+    ],
+    "top_dist": 0.274009108543396
+  },
+  {
+    "question": "เขียน Python เชื่อม TCP แบบยังไม่สั่ง motion",
+    "ok": true,
+    "hits": [
+      "python",
+      "dobot_api",
+      "29999",
+      "skeleton",
+      "dashboard",
+      "tcp"
+    ],
+    "type_hit": true,
+    "noise_chunks": 0,
+    "types": [
+      "cheat_sheet",
+      "cheat_sheet",
+      "api_reference",
+      "api_reference",
+      "sdk_code"
+    ],
+    "titles": [
+      "MG400 Python TCP Skeleton (connection-first)",
+      "MG400 Python TCP Skeleton (connection-first)",
+      "TCP/IP Remote Control Interface Guide (4-axis)",
+      "TCP/IP Remote Control Interface Guide (4-axis)",
+      "TCP-IP-4Axis-Python README (EN)"
+    ],
+    "top_dist": 0.2906160354614258
+  },
+  {
+    "question": "EnableRobot command ทำอะไร?",
+    "ok": true,
+    "hits": [
+      "enablerobot",
+      "enable",
+      "dashboard",
+      "robot"
+    ],
+    "type_hit": true,
+    "noise_chunks": 0,
+    "types": [
+      "manual",
+      "manual",
+      "manual",
+      "api_reference",
+      "sdk_code"
+    ],
+    "titles": [
+      "Dobot MG400 User Guide V1.7",
+      "Dobot MG400 User Guide V1.7",
+      "Dobot MG400 User Guide V1.7",
+      "TCP/IP Remote Control Interface Guide (4-axis)",
+      "PythonExample.py"
+    ],
+    "top_dist": 0.5300408005714417
+  },
+  {
+    "question": "TCP/IP 4-axis guide ใช้กับ MG400 ได้ไหม?",
+    "ok": true,
+    "hits": [
+      "4-axis",
+      "4axis",
+      "mg400",
+      "tcp",
+      "m1"
+    ],
+    "type_hit": true,
+    "noise_chunks": 0,
+    "types": [
+      "cheat_sheet",
+      "cheat_sheet",
+      "cheat_sheet",
+      "cheat_sheet",
+      "faq"
+    ],
+    "titles": [
+      "MG400 TCP Ports and Connection Cheat-sheet",
+      "MG400 Python TCP Skeleton (connection-first)",
+      "MG400 Python TCP Skeleton (connection-first)",
+      "MG400 TCP Ports and Connection Cheat-sheet",
+      "MG400 FAQ: Ip Rating"
+    ],
+    "top_dist": 0.2195591926574707
+  }
+]

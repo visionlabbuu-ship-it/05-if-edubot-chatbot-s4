@@ -1,0 +1,146 @@
+[
+  {
+    "question": "MG400 payload และ working radius เท่าไร?",
+    "answer": "### คำตอบแบบ Extractive (LLM ยังไม่พร้อม)\n_เหตุผล: --no-llm_\n\n**คำถาม:** MG400 payload และ working radius เท่าไร?\n\nจากเอกสารที่เกี่ยวข้องที่สุด:\n\n**1. MG400 FAQ: Control Box**\nck Q: Does the MG400 have a control box? Yes. The MG400 has an all-in-one design. The controller and servo drive are located at the base of the robot. The base dimension is 190 mm x 190 mm, less than the size of an A4 paper. The MG400 is highly portable and is ideal for flexible production. Did it solve your problem? Yes No Customer Service Email support@dobot-robots.com Subscribe to the latest updates. Follow Us Contact Us sales@dobot-robots.com Products CRA Series CRA-IP68 Series Nova Series C...\n\n**2. Dobot MG400 User Guide V1.7 | p.42 | page_42**\nDobot MG400 User Guide  Issue V1.7 (2023-11-16) User Guide Copyright © Y uejiang Technology Co., Ltd   8  Appendix A Technical Specifications  Product DOBOT MG400  Model DT-MG400-4R075-01  Weight 8kg  Max load 500g  Reach 440mm  Power adapter 100V~240V AC, 50/60Hz, Max. 240W  Rated voltage DC48V  Installation Table installation, indoor  Rated power 150W  Repeatability ±0.05mm  Base size 190mm * 190mm  Operation software DobotStudio Pro, CRStudio  Motion range  J1 ±160°  J2 -25°～85°  J3 -25°～105°...\n\n**3. Dobot MG400 User Guide V1.7 | p.22 | page_22**\nDobot MG400 User Guide  Issue V1.7 (2023-11-16) User Guide Copyright © Y uejiang Technology Co., Ltd   16   Load curve  The load capacity of the robot is negatively correlated with the eccentric distance of the load  mass center. The load curve is shown below.    Figure 5.6 MG400 load curve\n\n**4. Dobot MG400 User Guide V1.7 | p.14 | page_14**\nDobot MG400 User Guide  Issue V1.7 (2023-11-16) User Guide Copyright © Y uejiang Technology Co., Ltd   8   Product Introduction   Overview  MG400 is an ultra-compact desktop robot arm. It is designed integrating the controller and the  robot arm body. The controller is installed in the base. MG400 robot arm includes 4 rotating joints,  and two connecting rods (upper arm and forearm), as shown in Figure 3.1.    Figure 3.1 MG400     Robot base  The base is equipped with core computing and electric...\n\nSources:\n- MG400 FAQ: Control Box\n- Dobot MG400 User Guide V1.7 | p.42 | page_42\n- Dobot MG400 User Guide V1.7 | p.22 | page_22\n- Dobot MG400 User Guide V1.7 | p.14 | page_14\n\nหมายเหตุ: เมื่อ Ollama พร้อม ระบบจะสรุปคำตอบให้อ่านง่ายขึ้นอัตโนมัติ",
+    "citations": [
+      "MG400 FAQ: Control Box",
+      "Dobot MG400 User Guide V1.7 | p.42 | page_42",
+      "Dobot MG400 User Guide V1.7 | p.22 | page_22",
+      "Dobot MG400 User Guide V1.7 | p.14 | page_14",
+      "Dobot MG400 User Guide V1.7 | p.19 | page_19"
+    ],
+    "distances": [
+      0.3517810106277466,
+      0.43196970224380493,
+      0.47515594959259033,
+      0.4806743860244751,
+      0.48626410961151123
+    ]
+  },
+  {
+    "question": "MG400 ใช้ port อะไรบ้างสำหรับ dashboard, motion และ feedback?",
+    "answer": "### คำตอบแบบ Extractive (LLM ยังไม่พร้อม)\n_เหตุผล: --no-llm_\n\n**คำถาม:** MG400 ใช้ port อะไรบ้างสำหรับ dashboard, motion และ feedback?\n\nจากเอกสารที่เกี่ยวข้องที่สุด:\n\n**1. MG400 FAQ: Network Communication Ports**\nQuestions Back Q: Which network communication ports are available on the MG400? Port 502 is used for modbus applications by default, don't occupy it. Port 8172 is used by the Lua debugger, don't occupy it. LAN1 192.168.1.6 is used by the MG400 to connect to the upper computer. LAN2 192.168.2.6 is available to the operator for TCP communication by default. User can modify it, but do not change it to network segment 1 to avoid conflicts with LAN1. Did it solve your problem? Yes No Customer Service...\n\n**2. MG400 FAQ: Control Box**\nck Q: Does the MG400 have a control box? Yes. The MG400 has an all-in-one design. The controller and servo drive are located at the base of the robot. The base dimension is 190 mm x 190 mm, less than the size of an A4 paper. The MG400 is highly portable and is ideal for flexible production. Did it solve your problem? Yes No Customer Service Email support@dobot-robots.com Subscribe to the latest updates. Follow Us Contact Us sales@dobot-robots.com Products CRA Series CRA-IP68 Series Nova Series C...\n\n**3. Dobot MG400 User Guide V1.7 | p.14 | page_14**\nDobot MG400 User Guide  Issue V1.7 (2023-11-16) User Guide Copyright © Y uejiang Technology Co., Ltd   8   Product Introduction   Overview  MG400 is an ultra-compact desktop robot arm. It is designed integrating the controller and the  robot arm body. The controller is installed in the base. MG400 robot arm includes 4 rotating joints,  and two connecting rods (upper arm and forearm), as shown in Figure 3.1.    Figure 3.1 MG400     Robot base  The base is equipped with core computing and electric...\n\n**4. MG400 FAQ: Servo Motors**\nthe MG400 use stepper or servo motors? The MG400 uses servo motors. Did it solve your problem? Yes No Customer Service Email support@dobot-robots.com Subscribe to the latest updates. Follow Us Contact Us sales@dobot-robots.com Products CRA Series CRA-IP68 Series Nova Series CRS Series Magician E6 MG400 M1 Pro X-Trainer Industries Automotive Consumer Electronics Education Food & Beverage Healthcare Metal Processing Semiconductor Research Lab Applications Welding Palletizing Loading and Unloading ...\n\nSources:\n- MG400 FAQ: Network Communication Ports\n- MG400 FAQ: Control Box\n- Dobot MG400 User Guide V1.7 | p.14 | page_14\n- MG400 FAQ: Servo Motors\n\nหมายเหตุ: เมื่อ Ollama พร้อม ระบบจะสรุปคำตอบให้อ่านง่ายขึ้นอัตโนมัติ",
+    "citations": [
+      "MG400 FAQ: Network Communication Ports",
+      "MG400 FAQ: Control Box",
+      "Dobot MG400 User Guide V1.7 | p.14 | page_14",
+      "MG400 FAQ: Servo Motors",
+      "TCP/IP Remote Control Interface Guide (4-axis) | p.7 | page_7"
+    ],
+    "distances": [
+      0.34056681394577026,
+      0.3737378716468811,
+      0.3766801357269287,
+      0.413644015789032,
+      0.4470023512840271
+    ]
+  },
+  {
+    "question": "TCP/IP 4-axis guide ใช้กับ MG400 ได้ไหม?",
+    "answer": "### คำตอบแบบ Extractive (LLM ยังไม่พร้อม)\n_เหตุผล: --no-llm_\n\n**คำถาม:** TCP/IP 4-axis guide ใช้กับ MG400 ได้ไหม?\n\nจากเอกสารที่เกี่ยวข้องที่สุด:\n\n**1. MG400 FAQ: Network Communication Ports**\nQuestions Back Q: Which network communication ports are available on the MG400? Port 502 is used for modbus applications by default, don't occupy it. Port 8172 is used by the Lua debugger, don't occupy it. LAN1 192.168.1.6 is used by the MG400 to connect to the upper computer. LAN2 192.168.2.6 is available to the operator for TCP communication by default. User can modify it, but do not change it to network segment 1 to avoid conflicts with LAN1. Did it solve your problem? Yes No Customer Service...\n\n**2. Dobot MG400 User Guide V1.7 | p.23 | page_23**\nDobot MG400 User Guide  Issue V1.7 (2023-11-16) User Guide Copyright © Y uejiang Technology Co., Ltd   17   Electrical Specifications   Base Interface   Interface overview  The base interface board is shown in Figure 6.1 and described in Table 6.1.    Figure 6.1 Interface board of the base  Table 6.1 Interface description  Screen printing Description  LAN1 LAN interface  The default IP address is 192.168.1.6, which cannot be modified. It can  be used for software debugging.  LAN2 LAN interface  ...\n\n**3. TCP-IP-4Axis-Python README (EN)**\n## Version and Release  ### Current version V1.0.0.0  | Version| Date| |:----------:|:----------:| | V1.0.0.0| 2023-03-07 |  # 2\\. Technical support  # 3\\. TCP-IP-4Axis-Python control protocol  As the communication based on TCP/IP has high reliability, strong practicability and high performance with low cost, many industrial automation projects have a wide demand for controlling robots based on TCP/IP protocol. Therefore, the MG400/M1Pro robot is designed to provide rich interfaces for interacti...\n\n**4. MG400 FAQ: Control Box**\nck Q: Does the MG400 have a control box? Yes. The MG400 has an all-in-one design. The controller and servo drive are located at the base of the robot. The base dimension is 190 mm x 190 mm, less than the size of an A4 paper. The MG400 is highly portable and is ideal for flexible production. Did it solve your problem? Yes No Customer Service Email support@dobot-robots.com Subscribe to the latest updates. Follow Us Contact Us sales@dobot-robots.com Products CRA Series CRA-IP68 Series Nova Series C...\n\nSources:\n- MG400 FAQ: Network Communication Ports\n- Dobot MG400 User Guide V1.7 | p.23 | page_23\n- TCP-IP-4Axis-Python README (EN)\n- MG400 FAQ: Control Box\n\nหมายเหตุ: เมื่อ Ollama พร้อม ระบบจะสรุปคำตอบให้อ่านง่ายขึ้นอัตโนมัติ",
+    "citations": [
+      "MG400 FAQ: Network Communication Ports",
+      "Dobot MG400 User Guide V1.7 | p.23 | page_23",
+      "TCP-IP-4Axis-Python README (EN)",
+      "MG400 FAQ: Control Box",
+      "Dobot MG400 User Guide V1.7 | p.39 | page_39"
+    ],
+    "distances": [
+      0.38545018434524536,
+      0.42551517486572266,
+      0.43957048654556274,
+      0.4523089528083801,
+      0.46983110904693604
+    ]
+  },
+  {
+    "question": "ก่อนสั่ง MovJ ต้องตรวจ safety อะไรบ้าง?",
+    "answer": "### คำตอบแบบ Extractive (LLM ยังไม่พร้อม)\n_เหตุผล: --no-llm_\n\n**คำถาม:** ก่อนสั่ง MovJ ต้องตรวจ safety อะไรบ้าง?\n\nจากเอกสารที่เกี่ยวข้องที่สุด:\n\n**1. Dobot MG400 User Guide V1.7 | p.10 | page_10**\nDobot MG400 User Guide  Issue V1.7 (2023-11-16) User Guide Copyright © Y uejiang Technology Co., Ltd   4     The personnel responsible for installation, operation, and maintenance of the  equipment must first undergo strict training, understand various safety precautions,  and master the correct operation and maintenance methods before operating and  maintaining the equipment.   When an abnormality occurs in the mechanical arm, it is necessary to ensure that the  machine is stopped and then ch...\n\n**2. Dobot MG400 User Guide V1.7 | p.9 | page_9**\nf the equipment.   If the equipment is scrapped, please comply with relevant laws to properly handle  industrial waste and protect the environment.   Please establish safety measures (such as guardrails, ropes or warning lines) near the  operating area of the robot to ensure that personnel remain out of reach of the robot  being operated or the robot about to start operation.   Do not enter the safety range of the robot as determined by the risk assessment or  touch the robot while the system...\n\n**3. alarm_controller.json | alarm_block_78**\n## Alarm/Error ID: 12292 Description (EN): {'description': 'Safeguard stop detected', 'cause': '', 'solution': 'After ensuring safety, restore the safeguard device'} Description (ZH): {'description': '检测到安全防护停止', 'cause': '', 'solution': '确保安全后，恢复安全防护装置'}\n\n**4. Dobot MG400 User Guide V1.7 | p.3 | page_3**\ntions , and  modify the motion range of J4 joint  23 August, 2021 V1.3 Update the end -effector size, and add description on reserved  mounting hole  26 July, 2021 V1.2 Add input and output circuit examples in different application  scenarios  6 April, 2021 V1.1 Add description on hand-guiding button and diameter of the air  interface  6 February, 2021 V1.0 The first releases    Symbol Conventions  The symbols that may be found in this document are defined as follows.  Symbol Description   DANGE...\n\nSources:\n- Dobot MG400 User Guide V1.7 | p.10 | page_10\n- Dobot MG400 User Guide V1.7 | p.9 | page_9\n- alarm_controller.json | alarm_block_78\n- Dobot MG400 User Guide V1.7 | p.3 | page_3\n\nหมายเหตุ: เมื่อ Ollama พร้อม ระบบจะสรุปคำตอบให้อ่านง่ายขึ้นอัตโนมัติ",
+    "citations": [
+      "Dobot MG400 User Guide V1.7 | p.10 | page_10",
+      "Dobot MG400 User Guide V1.7 | p.9 | page_9",
+      "alarm_controller.json | alarm_block_78",
+      "Dobot MG400 User Guide V1.7 | p.3 | page_3",
+      "Dobot MG400 User Guide V1.7 | p.8 | page_8"
+    ],
+    "distances": [
+      0.5082367658615112,
+      0.5400574803352356,
+      0.5462734699249268,
+      0.5601102113723755,
+      0.5724538564682007
+    ]
+  },
+  {
+    "question": "ช่วยเขียน Python skeleton เชื่อม MG400 แบบยังไม่สั่ง motion",
+    "answer": "### คำตอบแบบ Extractive (LLM ยังไม่พร้อม)\n_เหตุผล: --no-llm_\n\n**คำถาม:** ช่วยเขียน Python skeleton เชื่อม MG400 แบบยังไม่สั่ง motion\n\nจากเอกสารที่เกี่ยวข้องที่สุด:\n\n**1. Dobot MG400 User Guide V1.7 | p.14 | page_14**\nDobot MG400 User Guide  Issue V1.7 (2023-11-16) User Guide Copyright © Y uejiang Technology Co., Ltd   8   Product Introduction   Overview  MG400 is an ultra-compact desktop robot arm. It is designed integrating the controller and the  robot arm body. The controller is installed in the base. MG400 robot arm includes 4 rotating joints,  and two connecting rods (upper arm and forearm), as shown in Figure 3.1.    Figure 3.1 MG400     Robot base  The base is equipped with core computing and electric...\n\n**2. MG400 FAQ: Control Box**\nck Q: Does the MG400 have a control box? Yes. The MG400 has an all-in-one design. The controller and servo drive are located at the base of the robot. The base dimension is 190 mm x 190 mm, less than the size of an A4 paper. The MG400 is highly portable and is ideal for flexible production. Did it solve your problem? Yes No Customer Service Email support@dobot-robots.com Subscribe to the latest updates. Follow Us Contact Us sales@dobot-robots.com Products CRA Series CRA-IP68 Series Nova Series C...\n\n**3. Dobot MG400 User Guide V1.7 | p.21 | page_21**\nDobot MG400 User Guide  Issue V1.7 (2023-11-16) User Guide Copyright © Y uejiang Technology Co., Ltd   15   Workspace  Figure 5.5 shows the workspace of MG400 robot.      Figure 5.5 Workspace  NOTICE When operating the robot, be sure to operate within the workspace and minimize  proximity to the working range boundary.\n\n**4. MG400 FAQ: Servo Motors**\nthe MG400 use stepper or servo motors? The MG400 uses servo motors. Did it solve your problem? Yes No Customer Service Email support@dobot-robots.com Subscribe to the latest updates. Follow Us Contact Us sales@dobot-robots.com Products CRA Series CRA-IP68 Series Nova Series CRS Series Magician E6 MG400 M1 Pro X-Trainer Industries Automotive Consumer Electronics Education Food & Beverage Healthcare Metal Processing Semiconductor Research Lab Applications Welding Palletizing Loading and Unloading ...\n\nSources:\n- Dobot MG400 User Guide V1.7 | p.14 | page_14\n- MG400 FAQ: Control Box\n- Dobot MG400 User Guide V1.7 | p.21 | page_21\n- MG400 FAQ: Servo Motors\n\nหมายเหตุ: เมื่อ Ollama พร้อม ระบบจะสรุปคำตอบให้อ่านง่ายขึ้นอัตโนมัติ",
+    "citations": [
+      "Dobot MG400 User Guide V1.7 | p.14 | page_14",
+      "MG400 FAQ: Control Box",
+      "Dobot MG400 User Guide V1.7 | p.21 | page_21",
+      "MG400 FAQ: Servo Motors",
+      "Dobot MG400 User Guide V1.7 | p.27 | page_27"
+    ],
+    "distances": [
+      0.35126793384552,
+      0.4002889394760132,
+      0.44054579734802246,
+      0.4509148597717285,
+      0.4711698889732361
+    ]
+  },
+  {
+    "question": "What is MG400?",
+    "answer": "### คำตอบแบบ Extractive (LLM ยังไม่พร้อม)\n_เหตุผล: --no-llm_\n\n**คำถาม:** What is MG400?\n\nจากเอกสารที่เกี่ยวข้องที่สุด:\n\n**1. Dobot MG400 User Guide V1.7 | p.14 | page_14**\nDobot MG400 User Guide  Issue V1.7 (2023-11-16) User Guide Copyright © Y uejiang Technology Co., Ltd   8   Product Introduction   Overview  MG400 is an ultra-compact desktop robot arm. It is designed integrating the controller and the  robot arm body. The controller is installed in the base. MG400 robot arm includes 4 rotating joints,  and two connecting rods (upper arm and forearm), as shown in Figure 3.1.    Figure 3.1 MG400     Robot base  The base is equipped with core computing and electric...\n\n**2. MG400 FAQ: Control Box**\nck Q: Does the MG400 have a control box? Yes. The MG400 has an all-in-one design. The controller and servo drive are located at the base of the robot. The base dimension is 190 mm x 190 mm, less than the size of an A4 paper. The MG400 is highly portable and is ideal for flexible production. Did it solve your problem? Yes No Customer Service Email support@dobot-robots.com Subscribe to the latest updates. Follow Us Contact Us sales@dobot-robots.com Products CRA Series CRA-IP68 Series Nova Series C...\n\n**3. MG400 FAQ: Ip Rating**\nhe MG400? The MG400 is IP20 rated. Did it solve your problem? Yes No Customer Service Email support@dobot-robots.com Subscribe to the latest updates. Follow Us Contact Us sales@dobot-robots.com Products CRA Series CRA-IP68 Series Nova Series CRS Series Magician E6 MG400 M1 Pro X-Trainer Industries Automotive Consumer Electronics Education Food & Beverage Healthcare Metal Processing Semiconductor Research Lab Applications Welding Palletizing Loading and Unloading Assembly Bin Picking Gluing Inser...\n\n**4. MG400 FAQ: Servo Motors**\nthe MG400 use stepper or servo motors? The MG400 uses servo motors. Did it solve your problem? Yes No Customer Service Email support@dobot-robots.com Subscribe to the latest updates. Follow Us Contact Us sales@dobot-robots.com Products CRA Series CRA-IP68 Series Nova Series CRS Series Magician E6 MG400 M1 Pro X-Trainer Industries Automotive Consumer Electronics Education Food & Beverage Healthcare Metal Processing Semiconductor Research Lab Applications Welding Palletizing Loading and Unloading ...\n\nSources:\n- Dobot MG400 User Guide V1.7 | p.14 | page_14\n- MG400 FAQ: Control Box\n- MG400 FAQ: Ip Rating\n- MG400 FAQ: Servo Motors\n\nหมายเหตุ: เมื่อ Ollama พร้อม ระบบจะสรุปคำตอบให้อ่านง่ายขึ้นอัตโนมัติ",
+    "citations": [
+      "Dobot MG400 User Guide V1.7 | p.14 | page_14",
+      "MG400 FAQ: Control Box",
+      "MG400 FAQ: Ip Rating",
+      "MG400 FAQ: Servo Motors",
+      "Dobot MG400 User Guide V1.7 | p.39 | page_39"
+    ],
+    "distances": [
+      0.3246116638183594,
+      0.3637073040008545,
+      0.44697141647338867,
+      0.45173579454421997,
+      0.46284568309783936
+    ]
+  },
+  {
+    "question": "EnableRobot command ทำอะไร?",
+    "answer": "### คำตอบแบบ Extractive (LLM ยังไม่พร้อม)\n_เหตุผล: --no-llm_\n\n**คำถาม:** EnableRobot command ทำอะไร?\n\nจากเอกสารที่เกี่ยวข้องที่สุด:\n\n**1. TCP/IP Remote Control Interface Guide (4-axis) | p.5 | page_5**\nENABLEROBOT() enablerobot() eNabLErobOt() When the robot receives a command, it returns a  response message  in the following format: ErrorID,{value,...,valueN},Message name(Param1,Param2,Param3……ParamN); If    ErrorID    is 0, the command is received successfully. If    ErrorID    is a non-zero value, it refers to an error in the command. See  Error Code  for details.   {value,...,valueN}    refers to the return value. {} means no return value.   Message name(Param1,Param2,Param3……ParamN)    re...\n\n**2. PythonExample.py**\n*****************  ************************************  * 指令：EnableRobot  * 功能：使能机器人  \"\"\"  if PARAMS:  dashboard.EnableRobot() #无参数  else:  load=0.1  centerX=0.1  centerY=0.1  centerZ=0.1  dashboard.EnableRobot(load) #一个参数    dashboard.EnableRobot(load, centerX, centerY, centerZ) #四个参数    \"\"\"  ************************************  ************************************  * 指令：DisableRobotexit  * 功能：下使能机器人  \"\"\"  dashboard.DisableRobot() #无参数      \"\"\"  ************************************  *********...\n\n**3. TCP/IP Remote Control Interface Guide (4-axis) | p.6 | page_6**\nthe immediate command. The Sync() command will block program execution until all previous commands are completed, as shown in the following example. MovJ(-500,100,200,150) // Queue command Sync() RobotMode() // Immediate command In this example, RobotMode() will be executed after the robot completes its motion, and return 5 (in motion). Get DEMO Dobot provides DEMOs for secondary development in various programming languages, stored in  Github . Please obtain the DEMOs you need and refer to them ...\n\n**4. TCP/IP Remote Control Interface Guide (4-axis) | p.6 | page_6**\nMost of the Dashboard commands (delivered by port 29999) are immediate commands, and some of the motion and IO related commands are queued commands. Motion-related commands (delivered by port 30003) are queued commands. If an immediate command is called after a queue command, the immediate command may be executed before the queue command is completed, as shown in the following example. MovJ(-100,100,200,150) // Queue command RobotMode() // Immediate command In this example, RobotMode() will be e...\n\nSources:\n- TCP/IP Remote Control Interface Guide (4-axis) | p.5 | page_5\n- PythonExample.py\n- TCP/IP Remote Control Interface Guide (4-axis) | p.6 | page_6\n- TCP/IP Remote Control Interface Guide (4-axis) | p.6 | page_6\n\nหมายเหตุ: เมื่อ Ollama พร้อม ระบบจะสรุปคำตอบให้อ่านง่ายขึ้นอัตโนมัติ",
+    "citations": [
+      "TCP/IP Remote Control Interface Guide (4-axis) | p.5 | page_5",
+      "PythonExample.py",
+      "TCP/IP Remote Control Interface Guide (4-axis) | p.6 | page_6",
+      "TCP/IP Remote Control Interface Guide (4-axis) | p.6 | page_6",
+      "TCP-IP-4Axis-Python README (EN)"
+    ],
+    "distances": [
+      0.4354625940322876,
+      0.4604019522666931,
+      0.4899422526359558,
+      0.49022746086120605,
+      0.5011501312255859
+    ]
+  },
+  {
+    "question": "ถ้า robot มี error/alarm ต้องดูไฟล์อะไร?",
+    "answer": "### คำตอบแบบ Extractive (LLM ยังไม่พร้อม)\n_เหตุผล: --no-llm_\n\n**คำถาม:** ถ้า robot มี error/alarm ต้องดูไฟล์อะไร?\n\nจากเอกสารที่เกี่ยวข้องที่สุด:\n\n**1. Dobot MG400 User Guide V1.7 | p.11 | page_11**\notate the switch according to the mark on the switch. The alarm can be cleared through the software  only after the emergency stop switch is unlocked. Then the robot arm can be enabled and resumed   Please use the matched cables when connecting a robot to internal or external  equipment for personal security and equipment protection.   Please ensure that the robot and tools are installed correctly.   Please ensure that the robot has enough space to move freely.   If the robot is damaged, do ...\n\n**2. Dobot MG400 User Guide V1.7 | p.7 | page_7**\nthe complete  robot application are eliminated. This includes, but is not limited to:  • Performing a risk assessment for the complete robot system.  • Adding safety machines and mechanisms based on the risk assessment.  • Setting up the appropriate safety settings in the software.  • Ensuring that the user will not modify any safety measures.  • Validating that the total robot system is designed and installed correctly.  • Specifying instructions for use.  • Marking relevant signs and contact i...\n\n**3. Dobot MG400 User Guide V1.7 | p.9 | page_9**\nf the equipment.   If the equipment is scrapped, please comply with relevant laws to properly handle  industrial waste and protect the environment.   Please establish safety measures (such as guardrails, ropes or warning lines) near the  operating area of the robot to ensure that personnel remain out of reach of the robot  being operated or the robot about to start operation.   Do not enter the safety range of the robot as determined by the risk assessment or  touch the robot while the system...\n\n**4. TCP/IP Remote Control Interface Guide (4-axis) | p.29 | page_29**\neturns 9 when there is an alarm, regardless of the status of the robot arm. 10 ROBOT_MODE_PAUSE Pause status 11 ROBOT_MODE_JOG Jogging status Example RobotMode() 29\n\nSources:\n- Dobot MG400 User Guide V1.7 | p.11 | page_11\n- Dobot MG400 User Guide V1.7 | p.7 | page_7\n- Dobot MG400 User Guide V1.7 | p.9 | page_9\n- TCP/IP Remote Control Interface Guide (4-axis) | p.29 | page_29\n\nหมายเหตุ: เมื่อ Ollama พร้อม ระบบจะสรุปคำตอบให้อ่านง่ายขึ้นอัตโนมัติ",
+    "citations": [
+      "Dobot MG400 User Guide V1.7 | p.11 | page_11",
+      "Dobot MG400 User Guide V1.7 | p.7 | page_7",
+      "Dobot MG400 User Guide V1.7 | p.9 | page_9",
+      "TCP/IP Remote Control Interface Guide (4-axis) | p.29 | page_29",
+      "alarm_controller.json | alarm_block_61"
+    ],
+    "distances": [
+      0.3523437976837158,
+      0.3800172805786133,
+      0.38138699531555176,
+      0.3891908526420593,
+      0.3946780562400818
+    ]
+  }
+]

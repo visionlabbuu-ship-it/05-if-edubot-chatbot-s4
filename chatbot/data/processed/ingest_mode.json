@@ -1,0 +1,17 @@
+{
+  "mode": "tight",
+  "sources_ok": 46,
+  "sources_total": 46,
+  "chunks": 1079,
+  "by_type": {
+    "manual": 89,
+    "software_manual": 579,
+    "api_reference": 107,
+    "sdk_code": 63,
+    "demo_guide": 194,
+    "datasheet": 2,
+    "cheat_sheet": 10,
+    "faq": 10,
+    "demo_script": 25
+  }
+}
